@@ -353,9 +353,6 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="New VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/New VI Library.vi"/>
-				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
-				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="DTbl Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Boolean Array.vi"/>
 				<Item Name="DWDT Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Boolean Array.vi"/>
@@ -393,6 +390,9 @@
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
+				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 			</Item>
 			<Item Name="Abort notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Abort notifier.vi"/>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
@@ -433,13 +433,11 @@
 			<Item Name="PXI-Set AO Config.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Config.vi"/>
 			<Item Name="PXI-Set AO Gains and Multipliers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Gains and Multipliers.vi"/>
 			<Item Name="PXI-StopDAQ.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-StopDAQ.vi"/>
-			<Item Name="Ramp Up or Down.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/Gate VIs/Ramp Up or Down.vi"/>
 			<Item Name="Restore Panel by Section.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Restore Panel by Section.vi"/>
 			<Item Name="Ring-Set nicely by string.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Ring-Set nicely by string.vi"/>
-			<Item Name="Seq-Globals.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/Sequencer VIs/Seq-Globals.vi"/>
 			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
 			<Item Name="Store Panel by Section.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Store Panel by Section.vi"/>
-			<Item Name="TCP Params.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Type Defs/TCP Params.ctl"/>
+			<Item Name="TCP Params.ctl" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Params.ctl"/>
 			<Item Name="TDT ET-Command Enum.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT ET VIs/TDT ET-Command Enum.ctl"/>
 			<Item Name="TDT ET-Send Command.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT ET VIs/TDT ET-Send Command.vi"/>
 			<Item Name="TDT-Coerce Sampling Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Coerce Sampling Rate.vi"/>
@@ -449,7 +447,7 @@
 			<Item Name="Enable or Gray Out.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Enable or Gray Out.vi"/>
 			<Item Name="Graphics-LTRB to WHCM.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-LTRB to WHCM.vi"/>
 			<Item Name="Graphics-LTWH to LTRB.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-LTWH to LTRB.vi"/>
-			<Item Name="TCP Write.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP Write.vi"/>
+			<Item Name="TCP Write.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Write.vi"/>
 			<Item Name="UserVars-Random Element of Expression.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Random Element of Expression.vi"/>
 			<Item Name="Config File Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Config File Path.vi"/>
 			<Item Name="Sort and Index (polymorphic).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (polymorphic).vi"/>
@@ -500,7 +498,7 @@
 			<Item Name="RunExe-Send Target Ready.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/RunExe-Send Target Ready.vi"/>
 			<Item Name="Normalize by Max AbsVal.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Normalize by Max AbsVal.vi"/>
 			<Item Name="Timing-Get Timestamp.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Timing VIs/Timing-Get Timestamp.vi"/>
-			<Item Name="TCP-Ping.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Ping.vi"/>
+			<Item Name="TCP-Ping.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Ping.vi"/>
 			<Item Name="String To Anything.vi" Type="VI" URL="../../Utility VIs/File IO VIs/Read Write Anything/String To Anything.vi"/>
 			<Item Name="Math-Discrete Random Number.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Random Number.vi"/>
 			<Item Name="Get Window Width.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Get Window Width.vi"/>
@@ -519,9 +517,9 @@
 			<Item Name="TDTSyn-Wait For Block.vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Wait For Block.vi"/>
 			<Item Name="Center Window on Parent.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Center Window on Parent.vi"/>
 			<Item Name="UserVars-Edit Expression Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Edit Expression Dialog.vi"/>
-			<Item Name="TCP Generic Listener.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP Generic Listener.vi"/>
-			<Item Name="TCP Generic Grab Data.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP Generic Grab Data.vi"/>
-			<Item Name="TCP Generic Ack.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP Generic Ack.vi"/>
+			<Item Name="TCP Generic Listener.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Generic Listener.vi"/>
+			<Item Name="TCP Generic Grab Data.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Generic Grab Data.vi"/>
+			<Item Name="TCP Generic Ack.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Generic Ack.vi"/>
 			<Item Name="Arrays Equal.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Arrays Equal.vi"/>
 			<Item Name="Arrays Equal (STR).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Arrays Equal (STR).vi"/>
 			<Item Name="PXI-Enumerate Terminals.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Terminals.vi"/>
@@ -540,13 +538,13 @@
 			<Item Name="PulseTrain (G3)-Init (Continuous).vi" Type="VI" URL="../../Signal Synthesis VIs/3rd Generation/Waveform VIs/Pulse Train VIs/PulseTrain (G3)-Init (Continuous).vi"/>
 			<Item Name="PulseTrain (G3)-Create (Continuous).vi" Type="VI" URL="../../Signal Synthesis VIs/3rd Generation/Waveform VIs/Pulse Train VIs/PulseTrain (G3)-Create (Continuous).vi"/>
 			<Item Name="Config-Delete Section.vi" Type="VI" URL="../../Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Delete Section.vi"/>
-			<Item Name="TCP-Combine Address and Port.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Combine Address and Port.vi"/>
-			<Item Name="TCP-Parse Address and Port.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Parse Address and Port.vi"/>
+			<Item Name="TCP-Combine Address and Port.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Combine Address and Port.vi"/>
+			<Item Name="TCP-Parse Address and Port.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Parse Address and Port.vi"/>
 			<Item Name="Get Window Position (left, top).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Get Window Position (left, top).vi"/>
 			<Item Name="AODO-Wait To Write (new).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Wait To Write (new).vi"/>
-			<Item Name="TCP-KO-Send Command.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-KO-Send Command.vi"/>
-			<Item Name="TCP-KO-Send Command Receive I16.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-KO-Send Command Receive I16.vi"/>
-			<Item Name="TCP-Check Result.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Check Result.vi"/>
+			<Item Name="TCP-KO-Send Command.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-KO-Send Command.vi"/>
+			<Item Name="TCP-KO-Send Command Receive I16.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-KO-Send Command Receive I16.vi"/>
+			<Item Name="TCP-Check Result.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Check Result.vi"/>
 			<Item Name="Array-Parse From String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Parse From String.vi"/>
 			<Item Name="Text List to Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text List to Array.vi"/>
 			<Item Name="Text-Parse String Fields.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text-Parse String Fields.vi"/>
@@ -640,8 +638,6 @@
 			<Item Name="Math-Discrete Truncated Gaussian RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Gaussian RNG.vi"/>
 			<Item Name="Math-Truncated Gaussian RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Truncated Gaussian RNG.vi"/>
 			<Item Name="Time Period To Num Samples.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Time Period To Num Samples.vi"/>
-			<Item Name="Create Gate.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/Gate VIs/Create Gate.vi"/>
-			<Item Name="Sine-squared ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/Gate VIs/Sine-squared ramp.vi"/>
 			<Item Name="Graphics-Y Marker Text (XY graph).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Y Marker Text (XY graph).vi"/>
 			<Item Name="Graphics-Plot Colorbar.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Plot Colorbar.vi"/>
 			<Item Name="Graphic-Generate Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphic-Generate Color Map.vi"/>
@@ -753,10 +749,6 @@
 			<Item Name="Process Array Elements.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Process Array Elements.vi"/>
 			<Item Name="Hardware Destination.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/Hardware Destination.ctl"/>
 			<Item Name="SGDA-Globals.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Globals.vi"/>
-			<Item Name="No Time Out Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/No Time Out Error.vi"/>
-			<Item Name="GetRawSocketFromConnectionID.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP_NODELAY.llb/GetRawSocketFromConnectionID.vi"/>
-			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP_NODELAY.llb/TCP_NoDelay.vi"/>
-			<Item Name="TCP Fast Listen.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP Fast Listen.vi"/>
 			<Item Name="Arrays Equal (U8).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Arrays Equal (U8).vi"/>
 			<Item Name="Arrays Equal (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Arrays Equal (DBL).vi"/>
 			<Item Name="AIDI-Read (DI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Read (DI).vi"/>
@@ -918,9 +910,6 @@
 			<Item Name="Config-Write Key (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (I32).vi"/>
 			<Item Name="Config-Write Key (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (DBL).vi"/>
 			<Item Name="Config-Write Key (Boolean).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (Boolean).vi"/>
-			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Check Cal Stimulus Params.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/Check Cal Stimulus Params.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -940,9 +929,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TDT-Close ActiveX.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Close ActiveX.vi"/>
-			<Item Name="TCP-Send Command Receive String.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Send Command Receive String.vi"/>
+			<Item Name="TCP-Send Command Receive String.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command Receive String.vi"/>
 			<Item Name="SysInfo-Expt VIs Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Expt VIs Version.vi"/>
-			<Item Name="TCP-Send Command Receive DBL (2D).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Send Command Receive DBL (2D).vi"/>
+			<Item Name="TCP-Send Command Receive DBL (2D).vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command Receive DBL (2D).vi"/>
 			<Item Name="TDTSyn-Get Events (Client Side).vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Get Events (Client Side).vi"/>
 			<Item Name="TDTSyn-Get Waves (Client Side).vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Get Waves (Client Side).vi"/>
 			<Item Name="CCM-Check Digital Output Lines.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Check Digital Output Lines.vi"/>
@@ -972,8 +961,22 @@
 			<Item Name="UserVars-Expression PDF.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Expression PDF.vi"/>
 			<Item Name="Read Anything (from variant).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything (from variant).vi"/>
 			<Item Name="GetFileVersion_Win.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/GetFileVersion_Win.vi"/>
-			<Item Name="TCP-Send Command.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Send Command.vi"/>
+			<Item Name="TCP-Send Command.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command.vi"/>
 			<Item Name="nearest multiple.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/nearest multiple.vi"/>
+			<Item Name="CommonSig-Create Gate.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Create Gate.vi"/>
+			<Item Name="CommonSig-Sin2 Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Sin2 Ramp.vi"/>
+			<Item Name="No Time Out Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/No Time Out Error.vi"/>
+			<Item Name="GetRawSocketFromConnectionID.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP_NODELAY.llb/GetRawSocketFromConnectionID.vi"/>
+			<Item Name="TCP_NoDelay.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP_NODELAY.llb/TCP_NoDelay.vi"/>
+			<Item Name="TCP Fast Listen.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Fast Listen.vi"/>
+			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="TCP Params.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Type Defs/TCP Params.ctl"/>
+			<Item Name="TCP-Combine Address and Port.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Combine Address and Port.vi"/>
+			<Item Name="TCP-Parse Address and Port.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Parse Address and Port.vi"/>
+			<Item Name="TCP Write.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP Write.vi"/>
+			<Item Name="TCP-Send Command.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Send Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
