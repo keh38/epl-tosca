@@ -2,16 +2,14 @@
 
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING .ISS SCRIPT FILES!
 
-#define verStr GetFileVersion("..\Build\Tosca.exe")
-#define lastDot RPos(".", verStr)
-#define revStr Copy(verStr, lastDot+1)
-#define verStr_ StringChange(verStr, '.', '_')
+;#define semver "0.1.0"
+#define verStr_ StringChange(semver, '.', '-')
 
 [Setup]                        
 AppName=Tosca 
-AppVerName=Tosca V{#verStr}
-DefaultDirName={commonpf}\EPL\Tosca\V{#revStr}
-OutputDir=D:\Experiment VIs\Tosca\Installer\Output
+AppVerName=Tosca V{#semver}
+DefaultDirName={commonpf}\EPL\Tosca\V{code:GetVersionFolder|{#semver}}
+OutputDir=.\Output
 DefaultGroupName=EPL
 AllowNoIcons=yes
 OutputBaseFilename=Tosca_Install_{#verStr_}
@@ -28,14 +26,13 @@ Name: "C:\Data\Tosca\Parameter Files"; Permissions: users-full; Check: CreateFol
 
 [Files]
 Source: "..\Build\*.*"; DestDir: "{app}"; Flags: replacesameversion
-;Source: "..\dotNET Source\Tracker\bin\Release\*.*"; DestDir: "{app}"; Flags: replacesameversion 
-;Source: "D:\Experiment VIs\Tosca\LV Source\Sub VIs\ToscaControls.dll"; DestDir: "{app}"; Flags: replacesameversion 
-Source: "D:\Experiment VIs\Tosca\LV Source\Sub VIs\Tosca-MATLAB Thread.vi"; DestDir: "{app}"; Flags: replacesameversion 
-Source: "D:\Experiment VIs\Tosca\LV Source\Pretrial VIs\Tosca-Execute MATLAB Script.vi"; DestDir: "{app}"; Flags: replacesameversion 
+Source: "D:\Development\epl-tosca\LV Source\Sub VIs\Tosca-MATLAB Thread.vi"; DestDir: "{app}"; Flags: replacesameversion 
+Source: "D:\Development\epl-tosca\LV Source\Pretrial VIs\Tosca-Execute MATLAB Script.vi"; DestDir: "{app}"; Flags: replacesameversion 
+Source: "D:\Development\epl-vi-lib\Utility VIs\Error Handling VIs\epl-vi-lib-errors.ini"; DestDir: "{app}"; Flags: replacesameversion
 
 [Icons]
-Name: "{group}\Tosca"; Filename: "{app}\Launch_Tosca.exe";
-Name: "{commondesktop}\Tosca"; Filename: "{app}\Launch_Tosca.exe"; IconFilename: "{app}\Tosca.ico"; IconIndex: 0; 
+Name: "{commondesktop}\Tosca"; Filename: "{app}\Launch_Tosca.exe"; IconFilename: "{app}\Tosca.ico"; IconIndex: 0; Check: not IsTestVersion('{#semver}')
+Name: "{commondesktop}\tosca {code:GetVersionFolder|{#semver}}"; Filename: "{app}\Tosca.exe"; Check: IsTestVersion('{#semver}')
 Name: "{commondesktop}\previous version"; Filename: "{code:GetPreviousVersion}\Launch_Tosca.exe"; IconFilename: "{code:GetPreviousVersion}\tosca.ico"; IconIndex: 0; Check: IsThereAPreviousVersion()
 Name: "{commondesktop}\Multirig Tosca"; Filename: "{app}\Multirig.exe"; IconFilename: "{app}\Tosca.ico"; IconIndex: 0; Check: IsMultirig()
 
@@ -79,7 +76,7 @@ begin
   if Result then
   begin
     rootFolder := ExtractFilePath(ExpandConstant('{app}'));
-    rev := StrToInt(ExpandConstant('{#revStr}'));
+    rev := StrToInt(ExpandConstant('{#semver}'));
 
     for v := rev - 1 downto 0 do
     begin
@@ -103,3 +100,28 @@ function CreateFolders(): Boolean;
 begin
   Result := OptionsPage.Values[2];
 end;
+function IsTestVersion(Param : String): Boolean;
+begin
+    Result := False
+    if (Pos('alpha', Param) > 0) or (Pos('beta', Param) > 0) then begin
+      Result := True
+    end;
+end;
+
+function GetVersionFolder(Param: String): String;
+var
+  idx : Integer;
+
+begin
+    Result := Param
+    idx := Pos('alpha', Param)
+    if idx > 0 then begin
+      Result := Copy(Param, 1, idx + 4)
+    end;
+    idx := Pos('beta', Param)
+    if idx > 0 then begin
+      Result := Copy(Param, 1, idx + 3)
+    end;
+end;
+
+

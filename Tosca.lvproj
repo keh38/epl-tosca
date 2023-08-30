@@ -303,12 +303,6 @@
 				<Item Name="DAQmx Flatten Channel String.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Flatten Channel String.vi"/>
 				<Item Name="DAQmx Control Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Control Task.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
-				<Item Name="GetTargetBuildSpecs (project reference).vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs (project reference).vi"/>
-				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
-				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
-				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
 				<Item Name="Sound File Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Info.vi"/>
 				<Item Name="Sound File Info (path).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Info (path).vi"/>
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
@@ -393,6 +387,13 @@
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
+				<Item Name="AB_Generate_Error_Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Generate_Error_Cluster.vi"/>
+				<Item Name="GetTargetBuildSpecs (project reference).vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs (project reference).vi"/>
+				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
+				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
+				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 			</Item>
 			<Item Name="Abort notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Abort notifier.vi"/>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
@@ -437,7 +438,6 @@
 			<Item Name="Ring-Set nicely by string.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Ring-Set nicely by string.vi"/>
 			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
 			<Item Name="Store Panel by Section.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Store Panel by Section.vi"/>
-			<Item Name="TCP Params.ctl" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Params.ctl"/>
 			<Item Name="TDT ET-Command Enum.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT ET VIs/TDT ET-Command Enum.ctl"/>
 			<Item Name="TDT ET-Send Command.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT ET VIs/TDT ET-Send Command.vi"/>
 			<Item Name="TDT-Coerce Sampling Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Coerce Sampling Rate.vi"/>
@@ -447,7 +447,6 @@
 			<Item Name="Enable or Gray Out.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Enable or Gray Out.vi"/>
 			<Item Name="Graphics-LTRB to WHCM.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-LTRB to WHCM.vi"/>
 			<Item Name="Graphics-LTWH to LTRB.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-LTWH to LTRB.vi"/>
-			<Item Name="TCP Write.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Write.vi"/>
 			<Item Name="UserVars-Random Element of Expression.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Random Element of Expression.vi"/>
 			<Item Name="Config File Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Config File Path.vi"/>
 			<Item Name="Sort and Index (polymorphic).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (polymorphic).vi"/>
@@ -489,12 +488,10 @@
 			<Item Name="Math-PDF to PMF.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-PDF to PMF.vi"/>
 			<Item Name="KMultilevel Ring.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KMultilevel Ring/KMultilevel Ring.xctl"/>
 			<Item Name="Spawn VI.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Spawn VI.vi"/>
-			<Item Name="Win32-Window Always On Top.vi" Type="VI" URL="../../Utility VIs/Windows VIs/Win32-Window Always On Top.vi"/>
-			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
-			<Item Name="Set Project Version.vi" Type="VI" URL="../../Utility VIs/System Info VIs/Set Project Version.vi"/>
+			<Item Name="Win32-Window Always On Top.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Win32-Window Always On Top.vi"/>
 			<Item Name="Run Executable.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Run Executable.vi"/>
 			<Item Name="FileIO-Experiment VIs Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Experiment VIs Path.vi"/>
-			<Item Name="RunExe-Wait For Target Ready.vi" Type="VI" URL="../../Utility VIs/Windows VIs/RunExe-Wait For Target Ready.vi"/>
+			<Item Name="RunExe-Wait For Target Ready.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/RunExe-Wait For Target Ready.vi"/>
 			<Item Name="RunExe-Send Target Ready.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/RunExe-Send Target Ready.vi"/>
 			<Item Name="Normalize by Max AbsVal.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Normalize by Max AbsVal.vi"/>
 			<Item Name="Timing-Get Timestamp.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Timing VIs/Timing-Get Timestamp.vi"/>
@@ -532,12 +529,12 @@
 			<Item Name="SysInfo-Get Path To App Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get Path To App Version.vi"/>
 			<Item Name="Graphics-Distance to Line Segment.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Distance to Line Segment.vi"/>
 			<Item Name="TDT-Init ActiveX.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Init ActiveX.vi"/>
-			<Item Name="PXI-Enumerate AO Boards.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Boards.vi"/>
-			<Item Name="Config-Get Keys.vi" Type="VI" URL="../../Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Get Keys.vi"/>
+			<Item Name="PXI-Enumerate AO Boards.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Boards.vi"/>
+			<Item Name="Config-Get Keys.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Get Keys.vi"/>
 			<Item Name="Pulse Train.Properties.ctl" Type="VI" URL="../../Signal Synthesis VIs/3rd Generation/Waveform VIs/Pulse Train VIs/Pulse Train.Properties.ctl"/>
 			<Item Name="PulseTrain (G3)-Init (Continuous).vi" Type="VI" URL="../../Signal Synthesis VIs/3rd Generation/Waveform VIs/Pulse Train VIs/PulseTrain (G3)-Init (Continuous).vi"/>
 			<Item Name="PulseTrain (G3)-Create (Continuous).vi" Type="VI" URL="../../Signal Synthesis VIs/3rd Generation/Waveform VIs/Pulse Train VIs/PulseTrain (G3)-Create (Continuous).vi"/>
-			<Item Name="Config-Delete Section.vi" Type="VI" URL="../../Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Delete Section.vi"/>
+			<Item Name="Config-Delete Section.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Delete Section.vi"/>
 			<Item Name="TCP-Combine Address and Port.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Combine Address and Port.vi"/>
 			<Item Name="TCP-Parse Address and Port.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Parse Address and Port.vi"/>
 			<Item Name="Get Window Position (left, top).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Get Window Position (left, top).vi"/>
@@ -742,8 +739,6 @@
 			<Item Name="KListbox.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KListbox/KListbox.xctl"/>
 			<Item Name="Listbox-Click to add.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Listbox-Click to add.vi"/>
 			<Item Name="Table-Get Visible Rows.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Table-Get Visible Rows.vi"/>
-			<Item Name="SysInfo-Get Experiment VIs Subfolder.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get Experiment VIs Subfolder.vi"/>
-			<Item Name="SysInfo-SubWCRev.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-SubWCRev.vi"/>
 			<Item Name="Create Directory Chain.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Create Directory Chain.vi"/>
 			<Item Name="Write Strings to File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Write Strings to File.vi"/>
 			<Item Name="Process Array Elements.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Process Array Elements.vi"/>
@@ -879,8 +874,6 @@
 			<Item Name="Set Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Set Plot Properties.vi"/>
 			<Item Name="Set Axis Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Set Axis Properties.vi"/>
 			<Item Name="Read Graph Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Read Graph Properties.vi"/>
-			<Item Name="Append User ID To Section Label.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Append User ID To Section Label.vi"/>
-			<Item Name="Restore Panel.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Restore Panel.vi"/>
 			<Item Name="Find Run.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Find Run.vi"/>
 			<Item Name="Tone RMS from Mag Spec.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Tone RMS from Mag Spec.vi"/>
 			<Item Name="Flush Data Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Flush Data Queue.vi"/>
@@ -921,8 +914,6 @@
 			<Item Name="TDT-Get Device Properties.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Get Device Properties.vi"/>
 			<Item Name="CM-TDT-Endpoint To Sequential Connection Number (1D String).vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/epl-vi-lib/Connection VIs/TDT VIs/CM-TDT-Endpoint To Sequential Connection Number (1D String).vi"/>
 			<Item Name="DAQ Output Capture-Enqueue Data.vi" Type="VI" URL="../../epl-vi-lib/Misc VIs/DAQ Output Capture/DAQ Output Capture-Enqueue Data.vi"/>
-			<Item Name="CFTS-Menu Handler.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Cochlear Function Test Suite/LV Source/CFTS Main Panel SubVIs/CFTS-Menu Handler.vi"/>
-			<Item Name="CFTS-Is Advanced User.vi" Type="VI" URL="../../cfts/LV Source/CFTS Main Panel SubVIs/CFTS-Is Advanced User.vi"/>
 			<Item Name="CalMicSens-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/SubVIs/CalMicSens-Main Menu.rtm"/>
 			<Item Name="Show Ring.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KPropertyTable/Show Ring.vi"/>
 			<Item Name="System" Type="VI" URL="System">
@@ -930,7 +921,6 @@
 			</Item>
 			<Item Name="TDT-Close ActiveX.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Close ActiveX.vi"/>
 			<Item Name="TCP-Send Command Receive String.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command Receive String.vi"/>
-			<Item Name="SysInfo-Expt VIs Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Expt VIs Version.vi"/>
 			<Item Name="TCP-Send Command Receive DBL (2D).vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command Receive DBL (2D).vi"/>
 			<Item Name="TDTSyn-Get Events (Client Side).vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Get Events (Client Side).vi"/>
 			<Item Name="TDTSyn-Get Waves (Client Side).vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Get Waves (Client Side).vi"/>
@@ -961,7 +951,6 @@
 			<Item Name="UserVars-Expression PDF.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Expression PDF.vi"/>
 			<Item Name="Read Anything (from variant).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything (from variant).vi"/>
 			<Item Name="GetFileVersion_Win.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/GetFileVersion_Win.vi"/>
-			<Item Name="TCP-Send Command.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command.vi"/>
 			<Item Name="nearest multiple.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/nearest multiple.vi"/>
 			<Item Name="CommonSig-Create Gate.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Create Gate.vi"/>
 			<Item Name="CommonSig-Sin2 Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Sin2 Ramp.vi"/>
@@ -972,11 +961,22 @@
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TCP Params.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Type Defs/TCP Params.ctl"/>
-			<Item Name="TCP-Combine Address and Port.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Combine Address and Port.vi"/>
-			<Item Name="TCP-Parse Address and Port.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Parse Address and Port.vi"/>
-			<Item Name="TCP Write.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP Write.vi"/>
-			<Item Name="TCP-Send Command.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TCP VIs/TCP-Send Command.vi"/>
+			<Item Name="CommonSig-Ramp Down (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Ramp Down (1D).vi"/>
+			<Item Name="TCP Params.ctl" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Params.ctl"/>
+			<Item Name="TCP Write.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP Write.vi"/>
+			<Item Name="TCP-Send Command.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command.vi"/>
+			<Item Name="Build-Create Installer.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Create Installer.vi"/>
+			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
+			<Item Name="Build-Build Items.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Build Items.vi"/>
+			<Item Name="Build-Clear Build Folder.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Clear Build Folder.vi"/>
+			<Item Name="Build-Set Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Set Version.vi"/>
+			<Item Name="Build-Get Specs.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Get Specs.vi"/>
+			<Item Name="Build.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build.vi"/>
+			<Item Name="Error Cluster From Win32 Error Code.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Error Cluster From Win32 Error Code.vi"/>
+			<Item Name="Find Window.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Find Window.vi"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
