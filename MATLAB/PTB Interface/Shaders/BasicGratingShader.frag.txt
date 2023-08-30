@@ -1,0 +1,36 @@
+/*
+ * File: BasicSquareGratingShader.frag.txt
+ * Shader for drawing of basic parameterized square grating patches.
+ * 8/31/16 KEH
+ *
+ * Modified from the BasicSineGratingShader:
+ * (c) 2007 by Mario Kleiner, licensed under MIT license.
+ *		 
+ */
+
+varying vec4  Idelta;
+varying float Phase;
+varying float CyclesPerPixel;
+varying float GratingType;
+varying float Imean;
+
+const float twopi = 2.0 * 3.141592654;
+
+void main()
+{
+    /* Query current output texel position: */
+    float pos = gl_TexCoord[0].x;
+	
+    /* Evaluate grating at requested position, spatial frequency and phase: */
+    float phs = fract(pos * CyclesPerPixel - Phase);
+	float sv = 1;
+	if (phs < 0.5) sv = -1;
+	
+	if (GratingType > 1) sv = sin(phs * twopi);
+	
+    /* Multiply/Modulate base color and alpha with calculated sine            */
+    /* values, add some constant color/alpha Offset, assign as final fragment */
+    /* output color: */
+	gl_FragColor = (Idelta * sv) + Imean * vec4(1, 1, 1, 0);
+
+}

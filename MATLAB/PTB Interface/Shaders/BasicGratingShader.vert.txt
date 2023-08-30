@@ -1,0 +1,59 @@
+/*
+ * File: BasicSquareGratingShader.vert.txt
+ * Shader for drawing of basic parameterized square grating patches.
+ * 8/31/2016 KEH
+ *
+ * Modified from BasicSineGratingShader:
+ %
+ * This is the vertex shader. It takes the attributes (parameters)
+ * provided by the Screen('DrawTexture(s)') command, performs some
+ * basic calculations on it - the calculations that only need to be
+ * done once per grating patch and that can be reliably carried out
+ * at sufficient numeric precision in a vertex shader - then it passes
+ * results of computations and other attributes as 'varying' parameters
+ * to the fragment shader.
+ *
+ * (c) 2007 by Mario Kleiner, licensed under MIT license.
+ *		 
+ */
+
+/* Constant from setup code: Premultiply to contrast value: */
+uniform float contrastPreMultiplicator;
+const float twopi = 2.0 * 3.141592654;
+
+/* Attributes passed from Screen(): See the ProceduralShadingAPI.m file for infos: */
+attribute vec4 modulateColor;
+attribute vec4 auxParameters0;
+attribute vec4 auxParameters1;
+
+/* Information passed to the fragment shader: Attributes and precalculated per patch constants: */
+varying vec4  Idelta;
+varying float Phase;
+varying float CyclesPerPixel;
+varying float GratingType;
+varying float Imean;
+
+void main()
+{
+    /* Apply standard geometric transformations to patch: */
+    gl_Position = ftransform();
+
+    /* Don't pass real texture coordinates, but ones corrected for hardware offsets (-0.5,0.5) */
+    gl_TexCoord[0] = (gl_TextureMatrix[0] * gl_MultiTexCoord0) + vec4(-0.5, 0.5, 0.0, 0.0);
+
+    /* Contrast value is stored in auxParameters0[2]: */
+    float Contrast = auxParameters0[2];
+
+    /* Convert Phase from degrees to radians: */
+    Phase = auxParameters0[0];
+
+    /* Precalc a couple of per-patch constant parameters: */
+    CyclesPerPixel = auxParameters0[1];
+
+	GratingType = auxParameters0[3];
+	Imean = auxParameters1[0];
+	
+    /* Premultiply the wanted Contrast to the color: */
+/*    baseColor = modulateColor * Contrast * contrastPreMultiplicator;*/
+    Idelta = Imean*vec4(1,1,1,0) * Contrast;
+}
