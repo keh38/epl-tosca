@@ -1,6 +1,6 @@
 ## Change Log
 
-### v4.8 (2023-08-30)
+### v4.8 (2023-08-31)
   
 #### Added
 - pink noise option

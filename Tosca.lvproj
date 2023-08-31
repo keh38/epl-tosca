@@ -1004,68 +1004,61 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/Tosca.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7BB3F538-FA54-4301-A990-E69F8772C933}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{53062298-C2C9-4EB2-BDBE-60FFE35F370A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Tosca.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/LV Source/Images/imaging.png</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/LV Source/Images/ImagingStart.png</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/LV Source/Images/ImagingStart.png</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/LV Source/Images/ImagingStop.png</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/LV Source/Images/ImagingStop.png</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/LV Source/Tosca-Launcher.vi</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/LV Source/Tosca-Launcher.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/LV Source/TTL VIs/Tosca-TTL Thread.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/LV Source/TTL VIs/Tosca-TTL Thread.vi</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[15].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/LV Source</Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[15].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[15].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/LV Source/Sub VIs/Tosca-MATLAB Thread.vi</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref"></Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[14].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[14].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/LV Source</Property>
+				<Property Name="Source[14].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[14].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[14].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/LV Source/Sub VIs/Tosca-MATLAB Thread.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV Source/Images/Tosca.ico</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LV Source/Images/delay.png</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LV Source/Images/delay.png</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LV Source/Images/delay2.png</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LV Source/Images/delay2.png</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LV Source/Images/delayg.png</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LV Source/Images/delayg.png</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/LV Source/Images/delayr.png</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/LV Source/Images/delayr.png</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/LV Source/Images/gear.png</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/LV Source/Images/gear.png</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/LV Source/Images/Hourglass.png</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/LV Source/Images/Hourglass.png</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/LV Source/Images/imaging.png</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">18</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
 				<Property Name="TgtF_companyName" Type="Str">Massachusetts Eye &amp; Ear</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Tosca</Property>
 				<Property Name="TgtF_internalName" Type="Str">Tosca</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Massachusetts Eye &amp; Ear Infirmary</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Massachusetts Eye &amp; Ear Infirmary</Property>
 				<Property Name="TgtF_productName" Type="Str">Tosca</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{48C6D2B5-618C-4735-A1A3-BC3D2A3DC27A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tosca.exe</Property>
@@ -1094,7 +1087,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Build</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7BB3F538-FA54-4301-A990-E69F8772C933}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{53062298-C2C9-4EB2-BDBE-60FFE35F370A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Tosca-Launcher.vi</Property>
@@ -1104,7 +1097,7 @@
 				<Property Name="TgtF_companyName" Type="Str">Mass Eye &amp; Ear</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Tosca Launcher</Property>
 				<Property Name="TgtF_internalName" Type="Str">Tosca Launcher</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Mass Eye &amp; Ear</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Mass Eye &amp; Ear</Property>
 				<Property Name="TgtF_productName" Type="Str">Tosca Launcher</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A02CE986-9C0F-4274-9C8B-561E19871ABC}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Launch_Tosca.exe</Property>
