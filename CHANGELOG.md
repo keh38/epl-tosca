@@ -1,4 +1,4 @@
-## Change Log
+## Changelog
 
 ### v4.8 (2023-08-31)
   
