@@ -17,9 +17,6 @@
 #### Changed
 - clearing the flowchart automatically brings up the editor  
 
-#### Added
-- option to restore previous analysis, using **R** key 
-
 ---
 
 ### Older
