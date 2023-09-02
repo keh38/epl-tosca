@@ -11,13 +11,13 @@ html {
   height: 100%;
 }
 body {
-  background-color: White;
-  margin: 0 0 0 0;
+  background-color: #f0f3f7;
+  margin: 12px 0 12px 0;
 }
 </style>
 <link type="text/css" rel="stylesheet" href="../css/topics/style.css" />
 <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="../js/settings.js?9180b128"></script>
+<script type="text/javascript" src="../js/settings.js?ff25cb0f"></script>
 <script type="text/javascript" src="../js/core.min.js?3e9f1cdf"></script>
 <script type="text/javascript" src="../js/topic.min.js?3e9f1cdf"></script>
 <script type="text/javascript">
@@ -26,23 +26,87 @@ body {
 <!-- Web Help Topic -->
 </head>
 <body>
-<p class="ps3"><span class="ts1">The data retrieved by Tosca from Synapse can be read by a user-specified MATLAB analysis function. That function is specified in the lower-left of the Tosca main window. The function is called by Tosca once at the end of every trial.</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps1"><img width="386" height="127" alt="" src="images/lib/matlab.png" /></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts1">The only restriction on the user-supplied function is that it must take a single input parameter. Tosca will use this parameter to pass the user function a string containing the path to the main Tosca data file for the current run. The paths to the stored Synapse data can be constructed by replacing the &quot;.txt&quot; extension with &quot;.syn&quot; (for spike time data) and/or &quot;.waves.syn&quot; (for analog data).</span></p>
-<p class="ps4"><br /><span class="ts5">General comments</span></p>
-<p class="ps4"><span class="ts1">Writing a function to perform meaningful on-the-fly analysis of physiological data is not trivial, for reasons that include</span></p>
-<p class="ps4"><span class="ts1">1. Tosca periodically retrieves whatever new data are available in the tank and immediately stores them to disk; the stored data are not segmented in any meaningful way with respect to the Tosca trial structure.</span></p>
-<p class="ps4"><span class="ts1">2. MATLAB is slow, and while the analysis function can be designed to simply re-analyze all previously-acquired data each time the function is called, over a large number of trials, the time (and potentially memory) required to complete that re-analysis can become a burden on the system.</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts1">Thus, the challenges involved in creating an efficient analysis function include the bookkeeping required to &quot;un-segment&quot; the stored data and extract the responses to the desired portion of each trial (i.e. the response to a particular stimulus or behavior), and the ability to perform the analysis incrementally (that is, only on the newest data, adding the result to the already analyzed data).</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts1">Probably the best way to begin is to examine the simple examples linked below, in particular to see how to use the linked utility functions to handle the messiest details of reading and organizing the data.</span></p>
-<h3 class="hd0"><span class="ts5">Example MATLAB analysis functions</span></h3>
-<p class="ps4"><span class="ts1">Example MATLAB functions that demonstrate the analysis of data retrieved from Synapse are found at </span><a href="file://///Apollo/research/ent/shared/hancock/Tosca/MATLAB/Synapse/Examples" class="hs1">\\Apollo\research\ent\shared\hancock\Tosca\MATLAB\Synapse\Examples</a></p>
-<h3 class="hd0"><span class="ts5">Utility MATLAB functions</span></h3>
-<p class="ps4"><span class="ts1">MATLAB functions that facilitate accessing and parsing the data retrieved from Synapse are found at </span><a href="file://///Apollo/research/ent/shared/hancock/Tosca/MATLAB/Synapse" class="hs1">\\Apollo\research\ent\shared\hancock\Tosca\MATLAB\Synapse</a></p>
-<p class="ps9"><span class="ts1">&nbsp;</span></p>
+<div>
+  <table class="align-c tbl0">
+    <tr class="row0">
+      <td class="cell0">
+        <p>&nbsp;</p>
+      </td>
+      <td class="cell1">
+        <div>
+          <table class="align-c tbl1">
+            <tr class="row0">
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell1">
+                <div>
+                  <table class="align-c tbl2">
+                    <tr class="row0">
+                      <td class="cell0">
+                        <p class="ps0"><span class="ts0">Navigation: Tosca User Guide &gt; </span><a href="interfacingtoscawithsynapse.htm" class="hs2">Interfacing Tosca with Synapse</a><span class="ts0">&nbsp;&gt; </span><a href="retrievingdatafromsynapse.htm" class="hs2">Retrieving data from Synapse</a><span class="ts0">&nbsp;&gt; </span></p>
+                        <h1 class="hd0"><span class="ts1">Analyzing data during the run</span></h1>
+                      </td>
+                      <td class="cell1">
+                        <p class="ps1"><a href="retrievingdatafromsynapse.htm" title="Retrieving data from Synapse"><img width="32" height="32" alt="" src="images/navigation%20links/previous%20bluetriangles32.png" /></a><a href="synfileformat.htm" title=".syn file format"><img width="32" height="32" alt="" src="images/navigation%20links/next%20bluetriangles32.png" /></a></p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell2">
+                <p class="ps2"><span class="ts2">&nbsp;</span></p>
+                <p class="ps7"><span class="ts5">The data retrieved by Tosca from Synapse can be read by a user-specified MATLAB analysis function. That function is specified in the lower-left of the Tosca main window. The function is called by Tosca once at the end of every trial.</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps4"><img width="386" height="127" alt="" src="images/lib/matlab.png" /></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts5">The only restriction on the user-supplied function is that it must take a single input parameter. Tosca will use this parameter to pass the user function a string containing the path to the main Tosca data file for the current run. The paths to the stored Synapse data can be constructed by replacing the &quot;.txt&quot; extension with &quot;.syn&quot; (for spike time data) and/or &quot;.waves.syn&quot; (for analog data).</span></p>
+                <p class="ps8"><br /><span class="ts9">General comments</span></p>
+                <p class="ps8"><span class="ts5">Writing a function to perform meaningful on-the-fly analysis of physiological data is not trivial, for reasons that include</span></p>
+                <p class="ps8"><span class="ts5">1. Tosca periodically retrieves whatever new data are available in the tank and immediately stores them to disk; the stored data are not segmented in any meaningful way with respect to the Tosca trial structure.</span></p>
+                <p class="ps8"><span class="ts5">2. MATLAB is slow, and while the analysis function can be designed to simply re-analyze all previously-acquired data each time the function is called, over a large number of trials, the time (and potentially memory) required to complete that re-analysis can become a burden on the system.</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts5">Thus, the challenges involved in creating an efficient analysis function include the bookkeeping required to &quot;un-segment&quot; the stored data and extract the responses to the desired portion of each trial (i.e. the response to a particular stimulus or behavior), and the ability to perform the analysis incrementally (that is, only on the newest data, adding the result to the already analyzed data).</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts5">Probably the best way to begin is to examine the simple examples linked below, in particular to see how to use the linked utility functions to handle the messiest details of reading and organizing the data.</span></p>
+                <h3 class="hd1"><span class="ts9">Example MATLAB analysis functions</span></h3>
+                <p class="ps8"><span class="ts5">Example MATLAB functions that demonstrate the analysis of data retrieved from Synapse are found at </span><a href="file://///Apollo/research/ent/shared/hancock/Tosca/MATLAB/Synapse/Examples" class="hs1">\\Apollo\research\ent\shared\hancock\Tosca\MATLAB\Synapse\Examples</a></p>
+                <h3 class="hd1"><span class="ts9">Utility MATLAB functions</span></h3>
+                <p class="ps8"><span class="ts5">MATLAB functions that facilitate accessing and parsing the data retrieved from Synapse are found at </span><a href="file://///Apollo/research/ent/shared/hancock/Tosca/MATLAB/Synapse" class="hs1">\\Apollo\research\ent\shared\hancock\Tosca\MATLAB\Synapse</a></p>
+                <p class="ps13"><span class="ts5">&nbsp;</span></p>
+                <p class="ps2"><span class="ts2">&nbsp;</span></p>
+              </td>
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell3">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell4">
+                <p class="ps6"><span class="ts4">Copyright &copy; 2023 Eaton-Peabody Laboratories</span></p>
+              </td>
+              <td class="cell5">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td class="cell0">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
 </body>
 </html>

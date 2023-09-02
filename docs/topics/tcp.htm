@@ -11,13 +11,13 @@ html {
   height: 100%;
 }
 body {
-  background-color: White;
-  margin: 0 0 0 0;
+  background-color: #f0f3f7;
+  margin: 12px 0 12px 0;
 }
 </style>
 <link type="text/css" rel="stylesheet" href="../css/topics/style.css" />
 <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="../js/settings.js?9180b128"></script>
+<script type="text/javascript" src="../js/settings.js?ff25cb0f"></script>
 <script type="text/javascript" src="../js/core.min.js?3e9f1cdf"></script>
 <script type="text/javascript" src="../js/topic.min.js?3e9f1cdf"></script>
 <script type="text/javascript">
@@ -26,38 +26,102 @@ body {
 <!-- Web Help Topic -->
 </head>
 <body>
-<p class="ps3"><span class="ts1">An Ethernet connection between the PXI and the PC is required for Tosca to communicate with Synapse. In principle, the regular internet connection is sufficient for this purpose (assuming both PXI and PC are connected to the network), but in practice, a direct Ethernet connection is desirable to maximize performance. The most recent PXI controllers have a second Ethernet port which is ideal for this purpose. If the PC does not have two Ethernet ports, a gigabit USB-to-Ethernet adapter works well.</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts1">Note that the communication between Tosca and Synapse is relayed through the intermediary </span><a href="running.htm" class="hs1">TDT Synapse Interface</a><span class="ts1">&nbsp;which runs on the PC.&nbsp;</span></p>
-<h3 class="hd0"><span class="ts5">Ethernet connection IP addresses</span></h3>
-<p class="ps4"><span class="ts1">Assuming use of a direct Ethernet connection between the PXI and PC, it is necessary to assign an IP address to the Ethernet adapter on each device. The recommended settings are:</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts6">PXI</span></p>
-<p class="ps4"><span class="ts1">IP address: 11.12.13.15</span></p>
-<p class="ps4"><span class="ts1">Subnet mask: 255.255.255.0</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts6">PC</span></p>
-<p class="ps4"><span class="ts1">IP address: 11.12.13.14</span></p>
-<p class="ps4"><span class="ts1">Subnet mask: 255.255.255.0</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts1">(Note that starting the address with 11 instead of 10 eliminates difficulty connecting to the network drives after booting.)</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts1">It is necessary to edit configuration files to tell Tosca and the TDT Synapse Interface about these IP addresses; there are no in-software controls to do so.&nbsp;</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts6">Tosca</span></p>
-<p class="ps4"><span class="ts1">Edit &quot;C:\ProgramData\EPL\Tosca Defaults.ini&quot; and add (or modify) the following lines:</span></p>
-<p class="ps4"><span class="ts1">[SynapseInterface]</span></p>
-<p class="ps4"><span class="ts1">IP Address=11.12.13.14</span></p>
-<p class="ps4"><span class="ts1">Port=4920</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps4"><span class="ts6">Synapse Interface</span></p>
-<p class="ps4"><span class="ts1">This step can also be performed as part of the </span><a href="installation.htm" class="hs1">Synapse Interface installation</a><span class="ts1">.</span></p>
-<p class="ps4"><span class="ts1">Edit &quot;C:\ProgramData\EPL\TDT Interface&quot; and add (or modify) the following lines:</span></p>
-<p class="ps4"><span class="ts1">[TCP]</span></p>
-<p class="ps4"><span class="ts1">Server=11.12.13.14</span></p>
-<p class="ps4"><span class="ts1">Port=4920</span></p>
-<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
-<p class="ps6"><span class="ts1">Note that the IP address is set on both sides to the IP address of the PC, because both sides need to know which application is hosting the TCP server (the TDT Synapse Interface).</span></p>
-<p class="ps7">&nbsp;</p>
+<div>
+  <table class="align-c tbl0">
+    <tr class="row0">
+      <td class="cell0">
+        <p>&nbsp;</p>
+      </td>
+      <td class="cell1">
+        <div>
+          <table class="align-c tbl1">
+            <tr class="row0">
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell1">
+                <div>
+                  <table class="align-c tbl2">
+                    <tr class="row0">
+                      <td class="cell0">
+                        <p class="ps0"><span class="ts0">Navigation: Tosca User Guide &gt; </span><a href="interfacingtoscawithsynapse.htm" class="hs2">Interfacing Tosca with Synapse</a><span class="ts0">&nbsp;&gt; </span><a href="settingupphysicalconnections.htm" class="hs2">Setting up physical connections</a><span class="ts0">&nbsp;&gt; </span></p>
+                        <h1 class="hd0"><span class="ts1">TCP</span></h1>
+                      </td>
+                      <td class="cell1">
+                        <p class="ps1"><a href="toscasyncpulses.htm" title="Tosca sync pulses"><img width="32" height="32" alt="" src="images/navigation%20links/previous%20bluetriangles32.png" /></a><a href="settingupsynapseinterface.htm" title="Setting up Synapse Interface"><img width="32" height="32" alt="" src="images/navigation%20links/next%20bluetriangles32.png" /></a></p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell2">
+                <p class="ps2"><span class="ts2">&nbsp;</span></p>
+                <p class="ps7"><span class="ts5">An Ethernet connection between the PXI and the PC is required for Tosca to communicate with Synapse. In principle, the regular internet connection is sufficient for this purpose (assuming both PXI and PC are connected to the network), but in practice, a direct Ethernet connection is desirable to maximize performance. The most recent PXI controllers have a second Ethernet port which is ideal for this purpose. If the PC does not have two Ethernet ports, a gigabit USB-to-Ethernet adapter works well.</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts5">Note that the communication between Tosca and Synapse is relayed through the intermediary </span><a href="running.htm" class="hs1">TDT Synapse Interface</a><span class="ts5">&nbsp;which runs on the PC. </span></p>
+                <h3 class="hd1"><span class="ts9">Ethernet connection IP addresses</span></h3>
+                <p class="ps8"><span class="ts5">Assuming use of a direct Ethernet connection between the PXI and PC, it is necessary to assign an IP address to the Ethernet adapter on each device. The recommended settings are:</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts10">PXI</span></p>
+                <p class="ps8"><span class="ts5">IP address: 11.12.13.15</span></p>
+                <p class="ps8"><span class="ts5">Subnet mask: 255.255.255.0</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts10">PC</span></p>
+                <p class="ps8"><span class="ts5">IP address: 11.12.13.14</span></p>
+                <p class="ps8"><span class="ts5">Subnet mask: 255.255.255.0</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts5">(Note that starting the address with 11 instead of 10 eliminates difficulty connecting to the network drives after booting.)</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts5">It is necessary to edit configuration files to tell Tosca and the TDT Synapse Interface about these IP addresses; there are no in-software controls to do so. </span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts10">Tosca</span></p>
+                <p class="ps8"><span class="ts5">Edit &quot;C:\ProgramData\EPL\Tosca Defaults.ini&quot; and add (or modify) the following lines:</span></p>
+                <p class="ps8"><span class="ts5">[SynapseInterface]</span></p>
+                <p class="ps8"><span class="ts5">IP Address=11.12.13.14</span></p>
+                <p class="ps8"><span class="ts5">Port=4920</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps8"><span class="ts10">Synapse Interface</span></p>
+                <p class="ps8"><span class="ts5">This step can also be performed as part of the </span><a href="installation.htm" class="hs1">Synapse Interface installation</a><span class="ts5">.</span></p>
+                <p class="ps8"><span class="ts5">Edit &quot;C:\ProgramData\EPL\TDT Interface&quot; and add (or modify) the following lines:</span></p>
+                <p class="ps8"><span class="ts5">[TCP]</span></p>
+                <p class="ps8"><span class="ts5">Server=11.12.13.14</span></p>
+                <p class="ps8"><span class="ts5">Port=4920</span></p>
+                <p class="ps8"><br /><span class="ts5">&nbsp;</span></p>
+                <p class="ps10"><span class="ts5">Note that the IP address is set on both sides to the IP address of the PC, because both sides need to know which application is hosting the TCP server (the TDT Synapse Interface).</span></p>
+                <p class="ps11">&nbsp;</p>
+                <p class="ps2"><span class="ts2">&nbsp;</span></p>
+              </td>
+              <td class="cell0">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr class="row0">
+              <td class="cell3">
+                <p>&nbsp;</p>
+              </td>
+              <td class="cell4">
+                <p class="ps6"><span class="ts4">Copyright &copy; 2023 Eaton-Peabody Laboratories</span></p>
+              </td>
+              <td class="cell5">
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td class="cell0">
+        <p>&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+</div>
 </body>
 </html>
