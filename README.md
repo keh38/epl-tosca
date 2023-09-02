@@ -1,4 +1,5 @@
 ![Tosca new banner](https://github.com/keh38/epl-tosca/assets/116917155/0c6bc6ef-f154-4913-9f1b-6ec9d4a951f1)
+![Tosca screenshot](https://github.com/keh38/epl-tosca/assets/116917155/20d393a7-c00a-4a4d-97e5-2f2fe034b08c)
 
 # Tosca
 
