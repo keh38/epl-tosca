@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html id="hs-topic-p">
+<head>
+<title>.syn file format</title>
+<meta charset="windows-1252" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="HelpSmith 9.7 (Build 23.607)" />
+<style type="text/css" media="screen">
+html {
+  height: 100%;
+}
+body {
+  background-color: White;
+  margin: 0 0 0 0;
+}
+</style>
+<link type="text/css" rel="stylesheet" href="../css/topics/style.css" />
+<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../js/settings.js?9180b128"></script>
+<script type="text/javascript" src="../js/core.min.js?3e9f1cdf"></script>
+<script type="text/javascript" src="../js/topic.min.js?3e9f1cdf"></script>
+<script type="text/javascript">
+	var topicContext = 6;
+</script>
+<!-- Web Help Topic -->
+</head>
+<body>
+<p class="ps3"><span class="ts1">The .syn files contain spike time and code data stored in big-endian binary format. Each time Tosca retrieves data from Synapse, it appends a block to the .syn file in the following format:</span></p>
+<p class="ps4"><span class="ts1">&nbsp;</span></p>
+<div>
+  <table class="tbl1">
+    <tr class="row0">
+      <td class="cell0">
+        <p class="ps12"><span class="ts1">Precision</span></p>
+      </td>
+      <td class="cell1">
+        <p class="ps12"><span class="ts1">Length</span></p>
+      </td>
+      <td class="cell2">
+        <p class="ps13"><span class="ts1">Description</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell3">
+        <p class="ps12"><span class="ts1">int32</span></p>
+      </td>
+      <td class="cell4">
+        <p class="ps12"><span class="ts1">1</span></p>
+      </td>
+      <td class="cell5">
+        <p class="ps13"><span class="ts1">Nc = number of codes</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell3">
+        <p class="ps12"><span class="ts1">int16</span></p>
+      </td>
+      <td class="cell4">
+        <p class="ps12"><span class="ts1">Nc</span></p>
+      </td>
+      <td class="cell5">
+        <p class="ps13"><span class="ts1">codes</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell3">
+        <p class="ps12"><span class="ts1">int32</span></p>
+      </td>
+      <td class="cell4">
+        <p class="ps12"><span class="ts1">1</span></p>
+      </td>
+      <td class="cell5">
+        <p class="ps13"><span class="ts1">Nt = number of times</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell3">
+        <p class="ps12"><span class="ts1">float32</span></p>
+      </td>
+      <td class="cell4">
+        <p class="ps12"><span class="ts1">Nt</span></p>
+      </td>
+      <td class="cell5">
+        <p class="ps13"><span class="ts1">times</span></p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="ps4"><br /><span class="ts1">&nbsp;</span></p>
+<p class="ps4"><span class="ts1">Spike codes with negative values indicate the occurrence of Tosca sync pulses:</span></p>
+<p class="ps4"><span class="ts1">&nbsp;</span></p>
+<div>
+  <table class="tbl2">
+    <tr class="row0">
+      <td class="cell0">
+        <p class="ps12"><span class="ts1">Code</span></p>
+      </td>
+      <td class="cell0">
+        <p class="ps13"><span class="ts1">Meaning</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell1">
+        <p class="ps12"><span class="ts1">-3</span></p>
+      </td>
+      <td class="cell1">
+        <p class="ps13"><span class="ts1">Trial</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell1">
+        <p class="ps12"><span class="ts1">-2</span></p>
+      </td>
+      <td class="cell1">
+        <p class="ps13"><span class="ts1">State</span></p>
+      </td>
+    </tr>
+    <tr class="row0">
+      <td class="cell1">
+        <p class="ps12"><span class="ts1">-1</span></p>
+      </td>
+      <td class="cell1">
+        <p class="ps13"><span class="ts1">Repetition</span></p>
+      </td>
+    </tr>
+  </table>
+</div>
+<p class="ps9"><span class="ts1">&nbsp;</span></p>
+</body>
+</html>
