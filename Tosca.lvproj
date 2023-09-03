@@ -411,6 +411,7 @@
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 			</Item>
 			<Item Name="Abort notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Abort notifier.vi"/>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
@@ -891,8 +892,6 @@
 			<Item Name="Set Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Set Plot Properties.vi"/>
 			<Item Name="Set Axis Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Set Axis Properties.vi"/>
 			<Item Name="Read Graph Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Read Graph Properties.vi"/>
-			<Item Name="Find Run.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Find Run.vi"/>
-			<Item Name="Tone RMS from Mag Spec.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Tone RMS from Mag Spec.vi"/>
 			<Item Name="Flush Data Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Flush Data Queue.vi"/>
 			<Item Name="PXI-Reset.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Reset.vi"/>
 			<Item Name="PXI-Flush AI Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Flush AI Queue.vi"/>
@@ -900,11 +899,7 @@
 			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
 			<Item Name="PXI-Check for DAQ error.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Check for DAQ error.vi"/>
 			<Item Name="Wait For DAQ to Start.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For DAQ to Start.vi"/>
-			<Item Name="Equip-Get AI Channels (String).vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Equip-Get AI Channels (String).vi"/>
 			<Item Name="PXI-Default Config.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Default Config.vi"/>
-			<Item Name="CRM-Config (PXI).vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/CRM-Config (PXI).vi"/>
-			<Item Name="CRM-Config (TDT).vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/CRM-Config (TDT).vi"/>
-			<Item Name="CRM-Config.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/CRM-Config.vi"/>
 			<Item Name="FileIO-Create Backup.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Create Backup.vi"/>
 			<Item Name="Get Version Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Get Version Info.vi"/>
 			<Item Name="Wait For Signal Bank To Write.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For Signal Bank To Write.vi"/>
@@ -927,11 +922,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TDT-Init DAQ.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Init DAQ.vi"/>
-			<Item Name="TDT-Get Device Properties.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Get Device Properties.vi"/>
-			<Item Name="CM-TDT-Endpoint To Sequential Connection Number (1D String).vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/epl-vi-lib/Connection VIs/TDT VIs/CM-TDT-Endpoint To Sequential Connection Number (1D String).vi"/>
 			<Item Name="DAQ Output Capture-Enqueue Data.vi" Type="VI" URL="../../epl-vi-lib/Misc VIs/DAQ Output Capture/DAQ Output Capture-Enqueue Data.vi"/>
-			<Item Name="CalMicSens-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/SubVIs/CalMicSens-Main Menu.rtm"/>
 			<Item Name="Show Ring.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KPropertyTable/Show Ring.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -994,6 +985,13 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CalMic-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Main Menu.rtm"/>
+			<Item Name="CalMic-Params.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Params.ctl"/>
+			<Item Name="StrQueue-Set Event Case Timeout.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Snippets/StrQueue-Set Event Case Timeout.vi"/>
+			<Item Name="CalMic-Initialize Hardware.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Initialize Hardware.vi"/>
+			<Item Name="Array-Delete String and Parse Fields.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Delete String and Parse Fields.vi"/>
+			<Item Name="CalMic-Load Calibration Log.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Load Calibration Log.vi"/>
+			<Item Name="CalMic-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Restore Defaults.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
