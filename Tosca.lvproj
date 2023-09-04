@@ -362,17 +362,6 @@
 				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
 				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
 				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
-				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
-				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
-				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
@@ -402,7 +391,6 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 			</Item>
-			<Item Name="Abort notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Abort notifier.vi"/>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="Array Dimensions (2D).vi" Type="VI" URL="../../PXI DAQ VIs/Utility VIs/Array Dimensions (2D).vi"/>
 			<Item Name="Array Dimensions.vi" Type="VI" URL="../../PXI DAQ VIs/Utility VIs/Array Dimensions.vi"/>
@@ -424,8 +412,6 @@
 			</Item>
 			<Item Name="Pulse Polarity.ctl" Type="VI" URL="../../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/Pulse Polarity.ctl"/>
 			<Item Name="PXI Multipliers to AO Gains (1D).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (1D).vi"/>
-			<Item Name="PXI-Channel Name to Physical Channel.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Channel Name to Physical Channel.vi"/>
-			<Item Name="PXI-Launch Server.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Launch Server.vi"/>
 			<Item Name="PXI-Reset Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Reset Devices.vi"/>
 			<Item Name="Ring-Set nicely by string.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Ring-Set nicely by string.vi"/>
 			<Item Name="TDT ET-Command Enum.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT ET VIs/TDT ET-Command Enum.ctl"/>
@@ -442,8 +428,6 @@
 			<Item Name="Sort and Index (polymorphic).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (polymorphic).vi"/>
 			<Item Name="Sort and Index (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (string).vi"/>
 			<Item Name="Ramp Down (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/Gate VIs/Ramp Down (1D).vi"/>
-			<Item Name="SGDA-Initialize Hardware.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Initialize Hardware.vi"/>
-			<Item Name="SGDA-Close Hardware.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Close Hardware.vi"/>
 			<Item Name="Connection Manager (customizable TDT).vi" Type="VI" URL="../../Misc VIs/Connection Manager/TDT VIs/Connection Manager (customizable TDT).vi"/>
 			<Item Name="Equip-Get Device (TDT).vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/TDT VIs/Equip-Get Device (TDT).vi"/>
 			<Item Name="TimedLoop-Tuning State.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Timing VIs/TimedLoop-Tuning State.ctl"/>
@@ -457,7 +441,6 @@
 			<Item Name="CCM-Read DODI Connection Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Read DODI Connection Tables.vi"/>
 			<Item Name="CM-Endpoints to Channels.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoints to Channels.vi"/>
 			<Item Name="String Array to Comma Separated String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/String Array to Comma Separated String.vi"/>
-			<Item Name="CM-Channel Names to Indices.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Channel Names to Indices.vi"/>
 			<Item Name="AODO-Output Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Output Spec.ctl"/>
 			<Item Name="AODO-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Config.ctl"/>
 			<Item Name="AODO-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Action.ctl"/>
@@ -682,10 +665,8 @@
 			<Item Name="AODO-DO Tasks.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-DO Tasks.ctl"/>
 			<Item Name="AODO-Start Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Start Tasks.vi"/>
 			<Item Name="PXI-Zero 16-bit Outputs (by device).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Zero 16-bit Outputs (by device).vi"/>
-			<Item Name="Is 24-bit task.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Is 24-bit task.vi"/>
 			<Item Name="AODO-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Clear Tasks.vi"/>
 			<Item Name="AODO-Create Tasks (DO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Tasks (DO).vi"/>
-			<Item Name="Get Terminal Name with Device Prefix.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Get Terminal Name with Device Prefix.vi"/>
 			<Item Name="AODO-Initialize DO Clock Source.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Initialize DO Clock Source.vi"/>
 			<Item Name="AODO-Initialize DO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Initialize DO.vi"/>
 			<Item Name="AODO-Set AO Gains.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Set AO Gains.vi"/>
@@ -732,8 +713,6 @@
 			<Item Name="Create Directory Chain.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Create Directory Chain.vi"/>
 			<Item Name="Write Strings to File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Write Strings to File.vi"/>
 			<Item Name="Process Array Elements.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Process Array Elements.vi"/>
-			<Item Name="Hardware Destination.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/Hardware Destination.ctl"/>
-			<Item Name="SGDA-Globals.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Globals.vi"/>
 			<Item Name="Arrays Equal (U8).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Arrays Equal (U8).vi"/>
 			<Item Name="Arrays Equal (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Arrays Equal (DBL).vi"/>
 			<Item Name="AIDI-Read (DI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Read (DI).vi"/>
@@ -761,94 +740,12 @@
 			<Item Name="PXI-Enumerate DIO Lines (by port).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate DIO Lines (by port).vi"/>
 			<Item Name="CCM-Read Connection Table.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Read Connection Table.vi"/>
 			<Item Name="CM-Connection.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Type Defs/CM-Connection.ctl"/>
-			<Item Name="PXI-AO Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-AO Queue.vi"/>
-			<Item Name="PXI-AI Transfer Mode.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/PXI-AI Transfer Mode.ctl"/>
-			<Item Name="DI Channel Struct.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/DI Channel Struct.ctl"/>
-			<Item Name="Counter Params.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/Counter Params.ctl"/>
-			<Item Name="Ramping Params.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/Ramping Params.ctl"/>
-			<Item Name="Channel Struct.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/Channel Struct.ctl"/>
-			<Item Name="Task Struct.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/Task Struct.ctl"/>
-			<Item Name="PXI Globals.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI Globals.vi"/>
-			<Item Name="Timing-Elapsed Time.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Timing VIs/Timing-Elapsed Time.vi"/>
-			<Item Name="Wait For AO Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For AO Queue.vi"/>
-			<Item Name="Wait For Signal Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For Signal Bank.vi"/>
-			<Item Name="PXI-Zero 16-bit Outputs.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Zero 16-bit Outputs.vi"/>
-			<Item Name="PXI-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Clear Tasks.vi"/>
-			<Item Name="PXI-Stop AOAI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Stop AOAI.vi"/>
-			<Item Name="PXI-Pause-Wait for Underflow.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Pause-Wait for Underflow.vi"/>
-			<Item Name="PXI-Ramp Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Ramp Bank.vi"/>
-			<Item Name="PXI-Make Ramp.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Make Ramp.vi"/>
-			<Item Name="PXI-AO Gain Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-AO Gain Bank.vi"/>
-			<Item Name="PXI-Multiplier Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Multiplier Bank.vi"/>
-			<Item Name="PXI-Write AO Buffers E.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Write AO Buffers E.vi"/>
-			<Item Name="DAQ Write State enum.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/DAQ Write State enum.ctl"/>
-			<Item Name="PXI-Check For Abort.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Check For Abort.vi"/>
-			<Item Name="QA-Trace.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/QA VIs/QA-Trace.vi"/>
-			<Item Name="Wait For Write Space.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For Write Space.vi"/>
-			<Item Name="PXI-Refresh AO Buffer (queue).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Refresh AO Buffer (queue).vi"/>
-			<Item Name="PXI-Update AO (Queue).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Update AO (Queue).vi"/>
-			<Item Name="PXI-DAQ loop stop test.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-DAQ loop stop test.vi"/>
-			<Item Name="Send DI Data Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/Send DI Data Queue.vi"/>
-			<Item Name="PXI-Read DI Buffers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Read DI Buffers.vi"/>
-			<Item Name="PXI-Update DI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Update DI.vi"/>
-			<Item Name="PXI-DO Signal Bank Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/PXI-DO Signal Bank Action.ctl"/>
-			<Item Name="PXI-AI Data Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-AI Data Bank.vi"/>
-			<Item Name="PXI-Wait for Stale AI Data Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Wait for Stale AI Data Bank.vi"/>
-			<Item Name="Send Data Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/Send Data Queue.vi"/>
-			<Item Name="PXI-Read AI Buffers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Read AI Buffers.vi"/>
-			<Item Name="Wait For Read Buffer.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For Read Buffer.vi"/>
-			<Item Name="PXI-Update AI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Update AI.vi"/>
-			<Item Name="PXI-Write DO Buffers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Write DO Buffers.vi"/>
-			<Item Name="Wait For Fresh DO Signal Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For Fresh DO Signal Bank.vi"/>
-			<Item Name="PXI-DO Signal Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-DO Signal Bank.vi"/>
-			<Item Name="PXI-Update DO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Update DO.vi"/>
-			<Item Name="Signal Bank.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Signal Bank.vi"/>
-			<Item Name="PXI-Tasks to Channel Names.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Tasks to Channel Names.vi"/>
-			<Item Name="Init AO Signals.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Init AO Signals.vi"/>
-			<Item Name="PXI-Refresh AO Buffer.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Refresh AO Buffer.vi"/>
-			<Item Name="PXI-Update AO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Update AO.vi"/>
-			<Item Name="PXI-Start AOAI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Start AOAI.vi"/>
-			<Item Name="PXI-Prime DO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Prime DO.vi"/>
-			<Item Name="Get Channel Indices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Get Channel Indices.vi"/>
-			<Item Name="PXI-Handle Device Specific Gains.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI-Handle Device Specific Gains.vi"/>
-			<Item Name="PXI-Set AO Gains.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI-Set AO Gains.vi"/>
-			<Item Name="PXI-Prime AO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Prime AO.vi"/>
-			<Item Name="PXI-Find Counter Device.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find Counter Device.vi"/>
-			<Item Name="PXI-Config Counter.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Config Counter.vi"/>
-			<Item Name="PXI Is any 16-bit task.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI Is any 16-bit task.vi"/>
 			<Item Name="PXI-Get Delays.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Delays.vi"/>
-			<Item Name="PXI-Compute DI Skip Samples.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Compute DI Skip Samples.vi"/>
-			<Item Name="PXI-Create DI or DO Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Create DI or DO Tasks.vi"/>
-			<Item Name="PXI-Find DIO Clock Source.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find DIO Clock Source.vi"/>
-			<Item Name="PXI-Create DIO Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Create DIO Tasks.vi"/>
-			<Item Name="PXI Compute Skip Samples.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI Compute Skip Samples.vi"/>
-			<Item Name="PXI-Set AI Gains.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Set AI Gains.vi"/>
-			<Item Name="Task Specification Struct.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/Task Specification Struct.ctl"/>
-			<Item Name="Split Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Split Tasks.vi"/>
-			<Item Name="PXI-Synchronize Tasks 2.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Synchronize Tasks 2.vi"/>
-			<Item Name="PXI-Get Output Terminal Configuration.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Output Terminal Configuration.vi"/>
-			<Item Name="PXI-Max Aggregate Sampling Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Max Aggregate Sampling Rate.vi"/>
-			<Item Name="PXI-Config DAQmx AI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Config DAQmx AI.vi"/>
 			<Item Name="PXI-Get Input Terminal Configuration.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Input Terminal Configuration.vi"/>
-			<Item Name="Is 24-bit channel.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Is 24-bit channel.vi"/>
-			<Item Name="PXI-Create Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Create Channels.vi"/>
-			<Item Name="Find String in Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Find String in Array.vi"/>
-			<Item Name="PXI-Create Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Create Tasks.vi"/>
-			<Item Name="PXI-Init Channel Array.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Init Channel Array.vi"/>
-			<Item Name="PXI-Sort Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Sort Channels.vi"/>
-			<Item Name="PXI-Create Device Maps.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Create Device Maps.vi"/>
-			<Item Name="PXI-Find Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find Devices.vi"/>
-			<Item Name="PXI-Config AOAI clk10.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Config AOAI clk10.vi"/>
-			<Item Name="PXI DAQ-Actions.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/PXI DAQ-Actions.ctl"/>
-			<Item Name="PXI DAQ.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI DAQ.vi"/>
-			<Item Name="No Release Notifier Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/No Release Notifier Error.vi"/>
-			<Item Name="PXI-Set DAQ In Progress Global.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Set DAQ In Progress Global.vi"/>
-			<Item Name="PXI DAQ Server.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI DAQ Server.vi"/>
 			<Item Name="TDT-Input source.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Input source.ctl"/>
 			<Item Name="TDT-Device ID.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device ID.ctl"/>
 			<Item Name="TDT-Output source.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Output source.ctl"/>
 			<Item Name="TDT-Device Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device Config.ctl"/>
-			<Item Name="Cxns-Get Connections File Path.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/Cxns-Get Connections File Path.vi"/>
 			<Item Name="TDT-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Devices.vi"/>
 			<Item Name="TDT-Wait For Hardware.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Wait For Hardware.vi"/>
 			<Item Name="PXI-Device Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/PXI-Device Spec.ctl"/>
@@ -866,12 +763,10 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DAQ Output Capture-Enqueue Data.vi" Type="VI" URL="../../epl-vi-lib/Misc VIs/DAQ Output Capture/DAQ Output Capture-Enqueue Data.vi"/>
 			<Item Name="Show Ring.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KPropertyTable/Show Ring.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TDT-Close ActiveX.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Close ActiveX.vi"/>
 			<Item Name="TCP-Send Command Receive String.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command Receive String.vi"/>
 			<Item Name="TCP-Send Command Receive DBL (2D).vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command Receive DBL (2D).vi"/>
 			<Item Name="TDTSyn-Get Events (Client Side).vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Get Events (Client Side).vi"/>
@@ -956,6 +851,10 @@
 			<Item Name="CAL-Globals.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Globals.vi"/>
 			<Item Name="Freefield Calibration.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Freefield Calibration.vi"/>
 			<Item Name="CM-Endpoint Name To Device.vim" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoint Name To Device.vim"/>
+			<Item Name="PXI-Is Task 24-bit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Is Task 24-bit.vi"/>
+			<Item Name="PXI-Compute Skip Samples.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Compute Skip Samples.vi"/>
+			<Item Name="PXI-Is Any Task 16-bit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Is Any Task 16-bit.vi"/>
+			<Item Name="PXI-Get Terminal Name with Device Prefix.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Terminal Name with Device Prefix.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
