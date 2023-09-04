@@ -558,10 +558,6 @@
 			<Item Name="Channel.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Channel/Channel.lvclass"/>
 			<Item Name="Waveform.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Waveform/Waveform.lvclass"/>
 			<Item Name="Level.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Level/Level.lvclass"/>
-			<Item Name="dB to Linear.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear.vi"/>
-			<Item Name="dB to Linear (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (1D).vi"/>
-			<Item Name="dB to Linear (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (2D).vi"/>
-			<Item Name="dB to Linear (scalar).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (scalar).vi"/>
 			<Item Name="FileIO-File or Folder Exists.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-File or Folder Exists.vi"/>
 			<Item Name="CAL-Read Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Read Data.vi"/>
 			<Item Name="File-Change Extension.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/File-Change Extension.vi"/>
@@ -586,14 +582,9 @@
 			<Item Name="Divide By 1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000.vi"/>
 			<Item Name="FFT x(t) to dB,Degrees.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees.vi"/>
 			<Item Name="FFT x(t) to dB,Degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (1D).vi"/>
-			<Item Name="Linear to dB.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB.vi"/>
-			<Item Name="Linear to dB (array).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB (array).vi"/>
-			<Item Name="Linear to dB (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB (2D).vi"/>
-			<Item Name="Linear to dB (scalar).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB (scalar).vi"/>
 			<Item Name="FFT x(t) to dB,Degrees (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (2D).vi"/>
 			<Item Name="CF,BW to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,BW to Fmin,Fmax.vi"/>
 			<Item Name="CF,Oct to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,Oct to Fmin,Fmax.vi"/>
-			<Item Name="FFTinv dB,degrees to x(t)_Ch3.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTinv dB,degrees to x(t)_Ch3.vi"/>
 			<Item Name="dB, degrees to Z.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB, degrees to Z.vi"/>
 			<Item Name="Z to dB, degrees.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees.vi"/>
 			<Item Name="Z to dB, degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees (1D).vi"/>
@@ -748,7 +739,7 @@
 			<Item Name="TDT-Device Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device Config.ctl"/>
 			<Item Name="TDT-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Devices.vi"/>
 			<Item Name="TDT-Wait For Hardware.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Wait For Hardware.vi"/>
-			<Item Name="PXI-Device Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/PXI-Device Spec.ctl"/>
+			<Item Name="PXI-Device Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Typedefs/PXI-Device Spec.ctl"/>
 			<Item Name="PXI-Enumerate Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Channels.vi"/>
 			<Item Name="PXI-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Devices.vi"/>
 			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
@@ -855,6 +846,9 @@
 			<Item Name="PXI-Compute Skip Samples.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Compute Skip Samples.vi"/>
 			<Item Name="PXI-Is Any Task 16-bit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Is Any Task 16-bit.vi"/>
 			<Item Name="PXI-Get Terminal Name with Device Prefix.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Terminal Name with Device Prefix.vi"/>
+			<Item Name="Math-dB To Linear.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-dB To Linear.vim"/>
+			<Item Name="Math-Linear to dB.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Linear to dB.vim"/>
+			<Item Name="Math-FFTinv dB,degrees to x(t).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-FFTinv dB,degrees to x(t).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
