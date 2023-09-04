@@ -373,17 +373,6 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
@@ -419,43 +408,26 @@
 			<Item Name="Array Dimensions.vi" Type="VI" URL="../../PXI DAQ VIs/Utility VIs/Array Dimensions.vi"/>
 			<Item Name="Array-Intersection.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Intersection.vi"/>
 			<Item Name="Array-Random Element.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Random Element.vi"/>
-			<Item Name="Beeper.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
 			<Item Name="Cal Mic Sensitivity.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Cal Mic Sensitivity.vi"/>
-			<Item Name="Cal Stimulus.ctl" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Type Defs/Cal Stimulus.ctl"/>
-			<Item Name="CAL-Load data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Load data.vi"/>
-			<Item Name="CAL-Plot data.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/CAL-Plot data.vi"/>
-			<Item Name="CAL-Save data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Save data.vi"/>
+			<Item Name="CAL-Save Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Save Data.vi"/>
 			<Item Name="CAL-Smooth.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Smooth.vi"/>
-			<Item Name="Create Cal Stimulus.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/Create Cal Stimulus.vi"/>
 			<Item Name="Create Waveform Cluster (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (2D).vi"/>
 			<Item Name="Create Waveform Cluster.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster.vi"/>
-			<Item Name="Data Available Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/Data Available Queue.vi"/>
 			<Item Name="Default Config File Path.vi" Type="VI" URL="../../Utility VIs/System Info VIs/Default Config File Path.vi"/>
 			<Item Name="FileIO-Open Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog.vi"/>
 			<Item Name="FileIO-Save Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Save Dialog.vi"/>
 			<Item Name="GenCM-List Connected Signals.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/GenCM-List Connected Signals.vi"/>
-			<Item Name="Load Signal Bank 1.0.3 keh.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Load Signal Bank 1.0.3 keh.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Pulse Polarity.ctl" Type="VI" URL="../../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/Pulse Polarity.ctl"/>
-			<Item Name="PXI Atten to Multiplier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Atten to Multiplier.vi"/>
 			<Item Name="PXI Multipliers to AO Gains (1D).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (1D).vi"/>
-			<Item Name="PXI Multipliers to AO Gains.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains.vi"/>
 			<Item Name="PXI-Channel Name to Physical Channel.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Channel Name to Physical Channel.vi"/>
-			<Item Name="PXI-General Init.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-General Init.vi"/>
 			<Item Name="PXI-Launch Server.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Launch Server.vi"/>
 			<Item Name="PXI-Reset Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Reset Devices.vi"/>
-			<Item Name="PXI-Set AI Config.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AI Config.vi"/>
-			<Item Name="PXI-Set AO Config.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Config.vi"/>
-			<Item Name="PXI-Set AO Gains and Multipliers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Gains and Multipliers.vi"/>
-			<Item Name="PXI-StopDAQ.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-StopDAQ.vi"/>
-			<Item Name="Restore Panel by Section.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Restore Panel by Section.vi"/>
 			<Item Name="Ring-Set nicely by string.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Ring-Set nicely by string.vi"/>
-			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
-			<Item Name="Store Panel by Section.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Store Panel by Section.vi"/>
 			<Item Name="TDT ET-Command Enum.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT ET VIs/TDT ET-Command Enum.ctl"/>
 			<Item Name="TDT ET-Send Command.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT ET VIs/TDT ET-Send Command.vi"/>
 			<Item Name="TDT-Coerce Sampling Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Coerce Sampling Rate.vi"/>
@@ -882,40 +854,12 @@
 			<Item Name="PXI-Device Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Type Defs/PXI-Device Spec.ctl"/>
 			<Item Name="PXI-Enumerate Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Channels.vi"/>
 			<Item Name="PXI-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Devices.vi"/>
-			<Item Name="Plot Properties.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Plot Properties.ctl"/>
-			<Item Name="Get Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Get Plot Properties.vi"/>
-			<Item Name="Axis Properties.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Axis Properties.ctl"/>
-			<Item Name="Get Axis Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Get Axis Properties.vi"/>
-			<Item Name="Graph Properties.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Graph Properties.ctl"/>
-			<Item Name="Get Graph Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Get Graph Properties.vi"/>
-			<Item Name="Write Graph Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Write Graph Properties.vi"/>
-			<Item Name="Set Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Set Plot Properties.vi"/>
-			<Item Name="Set Axis Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Set Axis Properties.vi"/>
-			<Item Name="Read Graph Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Graph Properties/Read Graph Properties.vi"/>
-			<Item Name="Flush Data Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Flush Data Queue.vi"/>
-			<Item Name="PXI-Reset.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Reset.vi"/>
-			<Item Name="PXI-Flush AI Queue.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Flush AI Queue.vi"/>
-			<Item Name="Wait For DAQ to Stop.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For DAQ to Stop.vi"/>
 			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
-			<Item Name="PXI-Check for DAQ error.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Check for DAQ error.vi"/>
-			<Item Name="Wait For DAQ to Start.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For DAQ to Start.vi"/>
-			<Item Name="PXI-Default Config.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Default Config.vi"/>
 			<Item Name="FileIO-Create Backup.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Create Backup.vi"/>
-			<Item Name="Get Version Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Get Version Info.vi"/>
-			<Item Name="Wait For Signal Bank To Write.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Wait For Signal Bank To Write.vi"/>
-			<Item Name="Irregular Array Subset (2D CDB).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (2D CDB).vi"/>
-			<Item Name="Irregular Array Subset (2D DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (2D DBL).vi"/>
-			<Item Name="Irregular Array Subset (DBL, Index).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL, Index).vi"/>
-			<Item Name="Irregular Array Subset (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (I32).vi"/>
-			<Item Name="Irregular Array Subset.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset.vi"/>
-			<Item Name="FileIO-Scan for String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Scan for String.vi"/>
-			<Item Name="CAL-Load data V1.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Load data V1.vi"/>
-			<Item Name="Cal-Smoothing Parameters.ctl" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Type Defs/Cal-Smoothing Parameters.ctl"/>
 			<Item Name="Config-Write Key (path).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (path).vi"/>
 			<Item Name="Config-Write Key (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (I32).vi"/>
 			<Item Name="Config-Write Key (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (DBL).vi"/>
 			<Item Name="Config-Write Key (Boolean).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (Boolean).vi"/>
-			<Item Name="Check Cal Stimulus Params.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/Check Cal Stimulus Params.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -992,6 +936,26 @@
 			<Item Name="Array-Delete String and Parse Fields.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Delete String and Parse Fields.vi"/>
 			<Item Name="CalMic-Load Calibration Log.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Load Calibration Log.vi"/>
 			<Item Name="CalMic-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Restore Defaults.vi"/>
+			<Item Name="CAL-Stimulus.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Stimulus.ctl"/>
+			<Item Name="CAL-Response.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Response.ctl"/>
+			<Item Name="CAL-Data.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Data.ctl"/>
+			<Item Name="CAL-Plot Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Plot Data.vi"/>
+			<Item Name="FF-Parameters.ctl" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Typedefs/FF-Parameters.ctl"/>
+			<Item Name="FF-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/FF-Restore Defaults.vi"/>
+			<Item Name="Freefield-Initialize Measurement.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/Freefield-Initialize Measurement.vi"/>
+			<Item Name="CAL-Endpoint.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Endpoint.ctl"/>
+			<Item Name="AODO-Configure AO.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vim"/>
+			<Item Name="AIDI-Configure AI.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Wrapper VIs/AIDI-Configure AI.vim"/>
+			<Item Name="CAL-Create Stimulus.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Stimulus VIs/CAL-Create Stimulus.vi"/>
+			<Item Name="Freefield-Compute ASTF.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/Freefield-Compute ASTF.vi"/>
+			<Item Name="Freefield-Show all.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/Freefield-Show all.vi"/>
+			<Item Name="FF-Queue Data.ctl" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Typedefs/FF-Queue Data.ctl"/>
+			<Item Name="DAQ-Sync and Start.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Sync and Start.vi"/>
+			<Item Name="DAQ-Stop All.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Stop All.vi"/>
+			<Item Name="FF-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Typedefs/FF-Main Menu.rtm"/>
+			<Item Name="CAL-Globals.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Globals.vi"/>
+			<Item Name="Freefield Calibration.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Freefield Calibration.vi"/>
+			<Item Name="CM-Endpoint Name To Device.vim" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoint Name To Device.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
