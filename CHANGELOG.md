@@ -5,6 +5,8 @@
 #### Added
 - User file searches for dB Vrms reference when applicable
 - User file option to loop (rather than zero-pad) when the file is not an integer number of audio frames long
+#### Changed
+- Uses general purpose freefield calibration
 
 ---
 
