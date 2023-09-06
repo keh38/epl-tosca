@@ -1,5 +1,16 @@
 ## Changelog
 
+### v4.8.1 (2023-09-05)
+
+#### Added
+- User file searches for dB Vrms reference when applicable
+- User file option to loop (rather than zero-pad) when the file is not an integer number of audio frames long
+  
+#### Changed
+- Uses general purpose freefield calibration
+
+---
+
 ### v4.8 (2023-08-31)
   
 #### Added
