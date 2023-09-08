@@ -1,5 +1,12 @@
 ## Changelog
 
+### v4.8.2 (2023-09-08)
+
+#### Fixed
+- bug reading calibration files
+
+---
+
 ### v4.8.1 (2023-09-05)
 
 #### Added
