@@ -1,5 +1,13 @@
 ## Changelog
 
+### Unreleased
+
+#### Changed
+
+- simplified device setup dialog
+
+---
+
 ### v4.8.2 (2023-09-08)
 
 #### Fixed
