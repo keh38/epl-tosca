@@ -380,6 +380,21 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="DAQmx Create Channel (Power).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (Power).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 			</Item>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="Array Dimensions (2D).vi" Type="VI" URL="../../PXI DAQ VIs/Utility VIs/Array Dimensions (2D).vi"/>
@@ -387,14 +402,13 @@
 			<Item Name="Array-Intersection.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Intersection.vi"/>
 			<Item Name="Array-Random Element.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Random Element.vi"/>
 			<Item Name="Cal Mic Sensitivity.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Cal Mic Sensitivity.vi"/>
-			<Item Name="CAL-Save Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Save Data.vi"/>
 			<Item Name="CAL-Smooth.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Smooth.vi"/>
 			<Item Name="Create Waveform Cluster (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (2D).vi"/>
 			<Item Name="Create Waveform Cluster.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster.vi"/>
 			<Item Name="Default Config File Path.vi" Type="VI" URL="../../Utility VIs/System Info VIs/Default Config File Path.vi"/>
 			<Item Name="FileIO-Open Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog.vi"/>
 			<Item Name="FileIO-Save Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Save Dialog.vi"/>
-			<Item Name="GenCM-List Connected Signals.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/GenCM-List Connected Signals.vi"/>
+			<Item Name="GenCM-List Connected Signals.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/GenCM-List Connected Signals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -418,17 +432,13 @@
 			<Item Name="Sort and Index (polymorphic).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (polymorphic).vi"/>
 			<Item Name="Sort and Index (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (string).vi"/>
 			<Item Name="Ramp Down (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/Gate VIs/Ramp Down (1D).vi"/>
-			<Item Name="Connection Manager (customizable TDT).vi" Type="VI" URL="../../Misc VIs/Connection Manager/TDT VIs/Connection Manager (customizable TDT).vi"/>
 			<Item Name="Equip-Get Device (TDT).vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/TDT VIs/Equip-Get Device (TDT).vi"/>
 			<Item Name="TimedLoop-Tuning State.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Timing VIs/TimedLoop-Tuning State.ctl"/>
 			<Item Name="TimedLoop-Tune.vi" Type="VI" URL="../../Utility VIs/Timing VIs/TimedLoop-Tune.vi"/>
-			<Item Name="CM-Get Digital Lines.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/CM-Get Digital Lines.vi"/>
 			<Item Name="Insert VI in Subpanel.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Insert VI in Subpanel.vi"/>
 			<Item Name="KCheckmarkBoolean 2.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Buttons/KCheckmarkBoolean 2.ctl"/>
-			<Item Name="CCM-Enumerate Endpoints.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Enumerate Endpoints.vi"/>
-			<Item Name="CCM-Check Mandatory Connections.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Check Mandatory Connections.vi"/>
-			<Item Name="CM-IO Type.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Type Defs/CM-IO Type.ctl"/>
-			<Item Name="CCM-Read DODI Connection Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Read DODI Connection Tables.vi"/>
+			<Item Name="CCM-Check Mandatory Connections.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/CCM-Check Mandatory Connections.vi"/>
+			<Item Name="CCM-Read DODI Connection Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/CCM-Read DODI Connection Tables.vi"/>
 			<Item Name="CM-Endpoints to Channels.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoints to Channels.vi"/>
 			<Item Name="String Array to Comma Separated String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/String Array to Comma Separated String.vi"/>
 			<Item Name="AODO-Output Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Output Spec.ctl"/>
@@ -718,9 +728,6 @@
 			<Item Name="Approx Equal (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Approx Equal (1D).vi"/>
 			<Item Name="Approx Equal (Scalar).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Approx Equal (Scalar).vi"/>
 			<Item Name="Approx Equal.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Approx Equal.vi"/>
-			<Item Name="PXI-Enumerate DIO Lines (by port).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate DIO Lines (by port).vi"/>
-			<Item Name="CCM-Read Connection Table.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Read Connection Table.vi"/>
-			<Item Name="CM-Connection.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Type Defs/CM-Connection.ctl"/>
 			<Item Name="PXI-Get Delays.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Delays.vi"/>
 			<Item Name="PXI-Get Input Terminal Configuration.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Input Terminal Configuration.vi"/>
 			<Item Name="TDT-Input source.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Input source.ctl"/>
@@ -729,9 +736,6 @@
 			<Item Name="TDT-Device Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device Config.ctl"/>
 			<Item Name="TDT-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Devices.vi"/>
 			<Item Name="TDT-Wait For Hardware.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Wait For Hardware.vi"/>
-			<Item Name="PXI-Device Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Typedefs/PXI-Device Spec.ctl"/>
-			<Item Name="PXI-Enumerate Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Channels.vi"/>
-			<Item Name="PXI-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Devices.vi"/>
 			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
 			<Item Name="FileIO-Create Backup.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Create Backup.vi"/>
 			<Item Name="Config-Write Key (path).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (path).vi"/>
@@ -752,26 +756,6 @@
 			<Item Name="TCP-Send Command Receive DBL (2D).vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command Receive DBL (2D).vi"/>
 			<Item Name="TDTSyn-Get Events (Client Side).vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Get Events (Client Side).vi"/>
 			<Item Name="TDTSyn-Get Waves (Client Side).vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Get Waves (Client Side).vi"/>
-			<Item Name="CCM-Check Digital Output Lines.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Check Digital Output Lines.vi"/>
-			<Item Name="CM-Save Hide Unused.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Save Hide Unused.vi"/>
-			<Item Name="CM-Read Hide Unused.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Read Hide Unused.vi"/>
-			<Item Name="PXI-Enumerate DIO Ports.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate DIO Ports.vi"/>
-			<Item Name="CM-Save Connector Type.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Save Connector Type.vi"/>
-			<Item Name="PXISlotGP.xctl" Type="XControl" URL="../../epl-vi-lib/Connection VIs/Type Defs/General PXISlot XControl/PXISlotGP.xctl"/>
-			<Item Name="AOAIRefs.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Type Defs/General PXISlot XControl/AOAIRefs.ctl"/>
-			<Item Name="CCM-Register Events.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Register Events.vi"/>
-			<Item Name="CCM-Show Table.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Show Table.vi"/>
-			<Item Name="CCM-Read Connection Tables (by device).vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Read Connection Tables (by device).vi"/>
-			<Item Name="CCM-XControl Data to Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-XControl Data to Tables.vi"/>
-			<Item Name="CCM-Save Table.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Save Table.vi"/>
-			<Item Name="CCM-Save Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CCM-Save Tables.vi"/>
-			<Item Name="CM-Show AOAI Connections.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Show AOAI Connections.vi"/>
-			<Item Name="CM-Read Connector Type.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Read Connector Type.vi"/>
-			<Item Name="CM-Init Slot Controls.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Init Slot Controls.vi"/>
-			<Item Name="Connector Type.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Type Defs/PXISlot XControl/Connector Type.ctl"/>
-			<Item Name="CM-Layout Slot Controls.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Layout Slot Controls.vi"/>
-			<Item Name="CM-Main Menu.rtm" Type="Document" URL="../../epl-vi-lib/Connection VIs/Sub VIs/CM-Main Menu.rtm"/>
-			<Item Name="Connection Manager (customizable).vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Connection Manager (customizable).vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error Handler.vi"/>
 			<Item Name="Filter Error (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Filter Error (1D).vi"/>
 			<Item Name="Logic State.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Type Defs/Logic State.ctl"/>
@@ -817,14 +801,12 @@
 			<Item Name="CAL-Data.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Data.ctl"/>
 			<Item Name="CAL-Plot Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Plot Data.vi"/>
 			<Item Name="FF-Parameters.ctl" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Typedefs/FF-Parameters.ctl"/>
-			<Item Name="FF-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/FF-Restore Defaults.vi"/>
 			<Item Name="Freefield-Initialize Measurement.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/Freefield-Initialize Measurement.vi"/>
 			<Item Name="CAL-Endpoint.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Endpoint.ctl"/>
 			<Item Name="AODO-Configure AO.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vim"/>
 			<Item Name="AIDI-Configure AI.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Wrapper VIs/AIDI-Configure AI.vim"/>
 			<Item Name="CAL-Create Stimulus.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Stimulus VIs/CAL-Create Stimulus.vi"/>
 			<Item Name="Freefield-Compute ASTF.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/Freefield-Compute ASTF.vi"/>
-			<Item Name="Freefield-Show all.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/Freefield-Show all.vi"/>
 			<Item Name="FF-Queue Data.ctl" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Typedefs/FF-Queue Data.ctl"/>
 			<Item Name="DAQ-Sync and Start.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Sync and Start.vi"/>
 			<Item Name="DAQ-Stop All.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Stop All.vi"/>
@@ -839,6 +821,28 @@
 			<Item Name="Math-dB To Linear.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-dB To Linear.vim"/>
 			<Item Name="Math-Linear to dB.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Linear to dB.vim"/>
 			<Item Name="Math-FFTinv dB,degrees to x(t).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-FFTinv dB,degrees to x(t).vi"/>
+			<Item Name="KLegend.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KLegend/KLegend.xctl"/>
+			<Item Name="Graphics-Delete Plots.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Delete Plots.vim"/>
+			<Item Name="Graphics-Set Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Set Plot Properties.vi"/>
+			<Item Name="Graphics-Plot Properties.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Plot Properties.ctl"/>
+			<Item Name="Graphics-Get Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Get Plot Properties.vi"/>
+			<Item Name="Graphics-Reorder Plots.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Reorder Plots.vim"/>
+			<Item Name="CAL-Save Data.vim" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Save Data.vim"/>
+			<Item Name="Graphics-Add Plot.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Add Plot.vi"/>
+			<Item Name="Freefield-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/SubVIs/Freefield-Restore Defaults.vi"/>
+			<Item Name="PXI-Enumerate DIO Lines (by port).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate DIO Lines (by port).vi"/>
+			<Item Name="CCM-Check Digital Output Lines.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/CCM-Check Digital Output Lines.vi"/>
+			<Item Name="PXI-Enumerate DIO Ports.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate DIO Ports.vi"/>
+			<Item Name="CCM-XControl Data to Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/CCM-XControl Data to Tables.vi"/>
+			<Item Name="CCM-Save Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/CCM-Save Tables.vi"/>
+			<Item Name="CM-Endpoint.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Typedefs/CM-Endpoint.ctl"/>
+			<Item Name="CM-Read Configuration.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Read Configuration.vi"/>
+			<Item Name="PXI-Enumerate AO Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Channels.vi"/>
+			<Item Name="Connection Manager (customizable).vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Connection Manager (customizable).vi"/>
+			<Item Name="PXI-Enumerate AI Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AI Channels.vi"/>
+			<Item Name="CM-Write Configuration.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Write Configuration.vi"/>
+			<Item Name="Tosca-Enumerate Required Endpoints.vi" Type="VI" URL="../LV Source/Sub VIs/Tosca-Enumerate Required Endpoints.vi"/>
+			<Item Name="CM-IO Type.ctl" Type="VI" URL="/C/Users/kehan/Desktop/Deprecated/Type Defs/CM-IO Type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
