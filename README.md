@@ -13,5 +13,5 @@
 - [EPL Calibration VI Library v1.1](../../../epl-cal-vi-lib/releases/tag/v1.1)
 
 ### Install locations to edit source code
-- Tosca source code must be installed in the same folder as the [EPL VI Library](../../../epl-vi-lib) and the [EPL Calibration VI Library](../../../epl-vi-lib), e.g. `C:\Development\epl-tosca`, `C:\Development\epl-vi-lib`, and `C:\Development\epl-cal-vi-lib`
+- Tosca source code must be installed in the same folder as the [EPL VI Library](../../../epl-vi-lib) and the [EPL Calibration VI Library](../../../epl-cal-vi-lib), e.g. `C:\Development\epl-tosca`, `C:\Development\epl-vi-lib`, and `C:\Development\epl-cal-vi-lib`
 - The libraries must be named `epl-vi-lib` and `epl-cal-vi-lib` to avoid breaking the dependencies in the Tosca source code
