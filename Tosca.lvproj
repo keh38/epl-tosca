@@ -395,17 +395,15 @@
 				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
+				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
 			</Item>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
-			<Item Name="Array Dimensions (2D).vi" Type="VI" URL="../../PXI DAQ VIs/Utility VIs/Array Dimensions (2D).vi"/>
-			<Item Name="Array Dimensions.vi" Type="VI" URL="../../PXI DAQ VIs/Utility VIs/Array Dimensions.vi"/>
 			<Item Name="Array-Intersection.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Intersection.vi"/>
 			<Item Name="Array-Random Element.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Random Element.vi"/>
 			<Item Name="Cal Mic Sensitivity.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Cal Mic Sensitivity.vi"/>
 			<Item Name="CAL-Smooth.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Smooth.vi"/>
 			<Item Name="Create Waveform Cluster (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (2D).vi"/>
 			<Item Name="Create Waveform Cluster.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster.vi"/>
-			<Item Name="Default Config File Path.vi" Type="VI" URL="../../Utility VIs/System Info VIs/Default Config File Path.vi"/>
 			<Item Name="FileIO-Open Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog.vi"/>
 			<Item Name="FileIO-Save Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Save Dialog.vi"/>
 			<Item Name="GenCM-List Connected Signals.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/GenCM-List Connected Signals.vi"/>
@@ -431,22 +429,14 @@
 			<Item Name="Config File Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Config File Path.vi"/>
 			<Item Name="Sort and Index (polymorphic).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (polymorphic).vi"/>
 			<Item Name="Sort and Index (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (string).vi"/>
-			<Item Name="Ramp Down (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/Gate VIs/Ramp Down (1D).vi"/>
-			<Item Name="Equip-Get Device (TDT).vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/TDT VIs/Equip-Get Device (TDT).vi"/>
-			<Item Name="TimedLoop-Tuning State.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Timing VIs/TimedLoop-Tuning State.ctl"/>
-			<Item Name="TimedLoop-Tune.vi" Type="VI" URL="../../Utility VIs/Timing VIs/TimedLoop-Tune.vi"/>
 			<Item Name="Insert VI in Subpanel.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Insert VI in Subpanel.vi"/>
 			<Item Name="KCheckmarkBoolean 2.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Buttons/KCheckmarkBoolean 2.ctl"/>
 			<Item Name="CCM-Check Mandatory Connections.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/CCM-Check Mandatory Connections.vi"/>
-			<Item Name="CCM-Read DODI Connection Tables.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Deprecated/Sub VIs/CCM-Read DODI Connection Tables.vi"/>
 			<Item Name="CM-Endpoints to Channels.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoints to Channels.vi"/>
 			<Item Name="String Array to Comma Separated String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/String Array to Comma Separated String.vi"/>
 			<Item Name="AODO-Output Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Output Spec.ctl"/>
 			<Item Name="AODO-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Config.ctl"/>
 			<Item Name="AODO-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Action.ctl"/>
-			<Item Name="AODO-Wait To Write.vi" Type="VI" URL="../../PXI DAQ VIs/AODO/Sub VIs/AODO-Wait To Write.vi"/>
-			<Item Name="TDT-AODO-Engine.vi" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT AODO VIs/TDT-AODO-Engine.vi"/>
-			<Item Name="TDT-AODO-Action.ctl" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT AODO VIs/Typedefs/TDT-AODO-Action.ctl"/>
 			<Item Name="PXI-Enumerate DIO Boards.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate DIO Boards.vi"/>
 			<Item Name="Config-Read Key.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key.vi"/>
 			<Item Name="Config-Read Key (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (string).vi"/>
@@ -483,7 +473,6 @@
 			<Item Name="Boolean to Listbox Symbol.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Boolean to Listbox Symbol.vi"/>
 			<Item Name="Get Window Height.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Get Window Height.vi"/>
 			<Item Name="UserVars-Expression to Vector (V2).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Expression to Vector (V2).vi"/>
-			<Item Name="Divide By 1000 (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000 (1D).vi"/>
 			<Item Name="TDTSyn-Wait For Block.vi" Type="VI" URL="../../epl-vi-lib/TDT Interface/Sub VIs/TDTSyn-Wait For Block.vi"/>
 			<Item Name="Center Window on Parent.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Center Window on Parent.vi"/>
 			<Item Name="UserVars-Edit Expression Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Edit Expression Dialog.vi"/>
@@ -501,7 +490,6 @@
 			<Item Name="Distance Between Points.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Distance Between Points.vi"/>
 			<Item Name="SysInfo-Get Path To App Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get Path To App Version.vi"/>
 			<Item Name="Graphics-Distance to Line Segment.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Distance to Line Segment.vi"/>
-			<Item Name="TDT-Init ActiveX.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Init ActiveX.vi"/>
 			<Item Name="PXI-Enumerate AO Boards.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Boards.vi"/>
 			<Item Name="Config-Get Keys.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Get Keys.vi"/>
 			<Item Name="Pulse Train.Properties.ctl" Type="VI" URL="../../Signal Synthesis VIs/3rd Generation/Waveform VIs/Pulse Train VIs/Pulse Train.Properties.ctl"/>
@@ -530,10 +518,6 @@
 			<Item Name="UserVars-Substitute Constants.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Substitute Constants.vi"/>
 			<Item Name="Math-Arbitrary Distribution.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Arbitrary Distribution.vi"/>
 			<Item Name="CumSum.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CumSum.vi"/>
-			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
-			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
-			<Item Name="interp1 (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (2D).vi"/>
-			<Item Name="interp1 (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (1D).vi"/>
 			<Item Name="Math-Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Truncated Exponential RNG.vi"/>
 			<Item Name="Math-Discrete Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Exponential RNG.vi"/>
 			<Item Name="Math-Bernoulli Trial.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Bernoulli Trial.vi"/>
@@ -579,7 +563,6 @@
 			<Item Name="Array-Dimensions (3D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Dimensions (3D).vi"/>
 			<Item Name="Array-Dimensions (2D string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Dimensions (2D string).vi"/>
 			<Item Name="Filter.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Filter/Filter.lvclass"/>
-			<Item Name="Divide By 1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000.vi"/>
 			<Item Name="FFT x(t) to dB,Degrees.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees.vi"/>
 			<Item Name="FFT x(t) to dB,Degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (1D).vi"/>
 			<Item Name="FFT x(t) to dB,Degrees (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (2D).vi"/>
@@ -590,7 +573,6 @@
 			<Item Name="Z to dB, degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees (1D).vi"/>
 			<Item Name="Z to dB, degrees (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees (2D).vi"/>
 			<Item Name="Tone.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Tone/Tone.lvclass"/>
-			<Item Name="X1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/X1000.vi"/>
 			<Item Name="Noise.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Noise/Noise.lvclass"/>
 			<Item Name="Noise.Buffer.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Sub VIs/Noise.Buffer.vi"/>
 			<Item Name="Array-Circular Subarray.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Circular Subarray.vi"/>
@@ -675,8 +657,6 @@
 			<Item Name="Config-Read Key (path).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (path).vi"/>
 			<Item Name="Config-Read Key (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (I32).vi"/>
 			<Item Name="Config-Read Key (Boolean).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (Boolean).vi"/>
-			<Item Name="Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Coerce Rep Rate.vi"/>
-			<Item Name="Coerce Stimulus Interval.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Coerce Stimulus Interval.vi"/>
 			<Item Name="AM.xctl" Type="XControl" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Controls/Modulations/AM/AM.xctl"/>
 			<Item Name="SAM.xctl" Type="XControl" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Controls/Modulations/SAM/SAM.xctl"/>
 			<Item Name="Filter.xctl" Type="XControl" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Controls/Filter/Filter.xctl"/>
@@ -730,12 +710,6 @@
 			<Item Name="Approx Equal.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/Approx Equal.vi"/>
 			<Item Name="PXI-Get Delays.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Delays.vi"/>
 			<Item Name="PXI-Get Input Terminal Configuration.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Input Terminal Configuration.vi"/>
-			<Item Name="TDT-Input source.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Input source.ctl"/>
-			<Item Name="TDT-Device ID.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device ID.ctl"/>
-			<Item Name="TDT-Output source.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Output source.ctl"/>
-			<Item Name="TDT-Device Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device Config.ctl"/>
-			<Item Name="TDT-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Devices.vi"/>
-			<Item Name="TDT-Wait For Hardware.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Wait For Hardware.vi"/>
 			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
 			<Item Name="FileIO-Create Backup.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Create Backup.vi"/>
 			<Item Name="Config-Write Key (path).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (path).vi"/>
@@ -842,7 +816,19 @@
 			<Item Name="PXI-Enumerate AI Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AI Channels.vi"/>
 			<Item Name="CM-Write Configuration.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Write Configuration.vi"/>
 			<Item Name="Tosca-Enumerate Required Endpoints.vi" Type="VI" URL="../LV Source/Sub VIs/Tosca-Enumerate Required Endpoints.vi"/>
-			<Item Name="CM-IO Type.ctl" Type="VI" URL="/C/Users/kehan/Desktop/Deprecated/Type Defs/CM-IO Type.ctl"/>
+			<Item Name="Math-Interp1.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Interp1.vim"/>
+			<Item Name="Math-Divide By 1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Divide By 1000.vim"/>
+			<Item Name="Math-X1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-X1000.vim"/>
+			<Item Name="CTR-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Action.ctl"/>
+			<Item Name="CTR-Engine.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/CTR-Engine.vi"/>
+			<Item Name="CTR-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Config.ctl"/>
+			<Item Name="CTR-Initialize.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Sub VIs/CTR-Initialize.vi"/>
+			<Item Name="CTR-Task Specification.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Task Specification.ctl"/>
+			<Item Name="PXI-Find Counter Device.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find Counter Device.vi"/>
+			<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Rep Rate.vi"/>
+			<Item Name="PXI-Coerce Stimulus Interval.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Stimulus Interval.vi"/>
+			<Item Name="TDT-AODO-Engine.vi" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT AODO VIs/TDT-AODO-Engine.vi"/>
+			<Item Name="TDT-AODO-Action.ctl" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT AODO VIs/Typedefs/TDT-AODO-Action.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
