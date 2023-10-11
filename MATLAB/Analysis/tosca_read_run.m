@@ -40,7 +40,7 @@ else
    isAdapt = strcmpi(Params.Tosca.Schedule_Mode, 'adapt');
 end
 
-if Params.Info.Version < 1988
+if isnumeric(Params.Info.Version) && Params.Info.Version < 1988
    % Parse header line
    s = fgetl(fp);
    c = textscan(s, '%s', 'delimiter', '\t');
@@ -93,7 +93,7 @@ end
 fclose(fp);
 
 % Match trial with .di.txt file
-if check && ~isempty(Data) && (~isfield(Params.Info, 'AlignmentChecked') || Params.Info.Version < 1988)
+if check && ~isempty(Data) && (~isfield(Params.Info, 'AlignmentChecked') || (isnumeric(Params.Info.Version) && Params.Info.Version < 1988))
    Data = tosca_check_alignment(Params, Data);
 end
 
