@@ -1,6 +1,10 @@
 ## Changelog
 
-### Unreleased
+### v4.9
+
+#### Added
+
+- allow "Volts" as user file reference
 
 #### Changed
 
