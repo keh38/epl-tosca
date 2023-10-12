@@ -404,7 +404,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">44040192</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">34078722</Property>
 			</Item>
 		</Item>
 		<Item Name="Execute script" Type="Property Definition">

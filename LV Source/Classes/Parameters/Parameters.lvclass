@@ -743,7 +743,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
 			</Item>
 			<Item Name="Set Termination TTL.vi" Type="VI" URL="../Set Termination TTL.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!$1!I1(!!(A!!&amp;"*198*B&lt;76U:8*T,GRW9WRB=X-!!!B5&lt;X.D93"J&lt;A!!"!!!!#B!=!!?!!!5%F"B=G&amp;N:82F=H-O&lt;(:D&lt;'&amp;T=Q!!#62P=W.B)'^V&gt;!!E1(!!(A!!&amp;R656%R$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!V254!!11%!!!@````]!!Q.56%Q!%5!$!!JT&gt;'&amp;U:5FO:'6Y!!!01!-!#82F=GV*&lt;G2F?!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!(!!A!#2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!"!!"!!5!!1!'!!%!#A!"!!%!!1!,!Q!"#!!!%A!!!!!!!!!!!!!!!!!!!!U!!!))!!!!!!!!!!A!!!!!!!!!#!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$!!!!!!</Property>
