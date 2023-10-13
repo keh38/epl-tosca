@@ -1,5 +1,13 @@
 ## Changelog
 
+### v4.9.1
+
+#### Fixed
+- made read of TTL output specification backward compatible
+- fixed bug saving parameters after changing noise weighting to white
+
+---
+
 ### v4.9
 
 #### Added
