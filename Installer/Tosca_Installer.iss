@@ -69,27 +69,36 @@ end;
 function IsThereAPreviousVersion(): Boolean;
 var
   rootFolder : String;
-  rev : Longint;
-  folder : String;
-  v : Longint;
+  verStr : String;
+  verNum : Int64;
+  prevNum : Int64;
+  num : Int64;
+  FindRec : TFindRec;
 begin
-  Result := OptionsPage.Values[0];
-  if Result then
-  begin
-    rootFolder := ExtractFilePath(ExpandConstant('{app}'));
-    rev := StrToInt(ExpandConstant('{#semver}'));
-
-    for v := rev - 1 downto 0 do
-    begin
-      folder := rootFolder + 'V' + IntToStr(v);
-      if DirExists(folder) then
-      begin
-        PreviousVersion := folder;
-        Result := True;
-        break;
-      end
-    end
-  end
+  rootFolder := ExtractFilePath(ExpandConstant('{app}'));
+  verStr := ExpandConstant('{#semver}');
+  StrToVersion(verStr, verNum);
+  prevNum := 0;
+  Result := False;
+  
+  if FindFirst(rootFolder + '\V*', FindRec) then begin
+    try
+      repeat
+        if (Pos('alpha', FindRec.Name) = 0) and (Pos('beta', FindRec.Name) = 0) then 
+        begin
+          GetPackedVersion(rootFolder + '\' + FindRec.Name + '\Tosca.exe', num);
+          if (ComparePackedVersion(num, prevNum) > 0) and (ComparePackedVersion(num, verNum) < 0) then
+          begin
+            prevNum := num;
+            PreviousVersion := rootFolder + '\' + FindRec.Name;
+            Result := True;
+          end;
+        end;
+      until not FindNext(FindRec);
+    finally
+      FindClose(FindRec);
+    end;
+  end;
 end;
 
 function IsMultirig(): Boolean;
