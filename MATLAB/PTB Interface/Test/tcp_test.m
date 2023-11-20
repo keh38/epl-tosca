@@ -2,10 +2,10 @@
 
 if ~isdeployed
     addpath('../Grating');
-    javaaddpath('../TCPThread.jar');
+    javaaddpath('../TCPThread_KeepOpen.jar');
 end
 
-tcp_thread = TCPThread('localhost', 4926);
+tcp_thread = TCPThread_KeepOpen('localhost', 4926);
 start(tcp_thread);
 
 a = datetime('now');
@@ -29,7 +29,7 @@ try
             tlocal = datetime('now');
             fprintf('\ntlocal: %f\n', second(tlocal));
             
-         elseif ~isempty(strfind(msg, 'CreateLog'))
+         elseif contains(msg, 'CreateLog')
             tlocal = datetime('now');
             c = strsplit(msg, ':');
             
@@ -38,7 +38,7 @@ try
             fprintf('treceived: %f\n', second(treceived));
             fprintf('\ntlocal: %f\n', second(tlocal));
             
-         elseif ~isempty(strfind(msg, 'Quit'))
+         elseif contains(msg, 'Quit')
             break;
          end
       end

@@ -2,8 +2,8 @@ function ptb_interface(init_string)
 
 if ~isdeployed
     addpath('Grating');
-%     javaaddpath('./TCPThread_KeepOpen.jar');
-    javaaddpath('./TCPThread.jar');
+    javaaddpath('./TCPThread_KeepOpen.jar');
+%     javaaddpath('./TCPThread.jar');
 end
 
 if nargin > 0
@@ -15,7 +15,7 @@ end
 grating.type = 'OFF';
 log = ClearLog();
 
-tcp_thread = TCPThread('localhost', 4926);
+tcp_thread = TCPThread_KeepOpen('localhost', 4926);
 start(tcp_thread);
 
 pause(1);
