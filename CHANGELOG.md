@@ -1,5 +1,12 @@
 ## Changelog
 
+### v4.9.2 (2023-11-20)
+
+#### Fixed
+- AO/AI sync error on 4461 board (epl-vi-lib) 
+
+---
+
 ### v4.9.1
 
 #### Fixed
