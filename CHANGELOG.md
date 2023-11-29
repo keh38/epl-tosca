@@ -1,5 +1,9 @@
 ## Changelog
 
+### Unreleased
+#### Fixed
+- flatten-to-string error when saving gate with shape=OFF and duration > 0
+
 ### v4.9.2 (2023-11-20)
 
 #### Fixed
