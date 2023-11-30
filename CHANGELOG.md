@@ -15,7 +15,7 @@
 
 ---
 
-### v4.9.1
+### v4.9.1 (2023-10-13)
 
 #### Fixed
 - made read of TTL output specification backward compatible
@@ -23,7 +23,7 @@
 
 ---
 
-### v4.9
+### v4.9 (2023-10-11)
 
 #### Added
 
