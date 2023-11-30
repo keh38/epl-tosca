@@ -6,6 +6,8 @@
 - visual stim now opens correctly from the Connections dialog
 - visual stim now functions correctly during run
 
+---
+
 ### v4.9.2 (2023-11-20)
 
 #### Fixed
