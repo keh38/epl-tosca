@@ -1,8 +1,10 @@
 ## Changelog
 
-### Unreleased
+### v4.9.3 (2023-11-30)
 #### Fixed
 - flatten-to-string error when saving gate with shape=OFF and duration > 0
+- visual stim now opens correctly from the Connections dialog
+- visual stim now functions correctly during run
 
 ### v4.9.2 (2023-11-20)
 
