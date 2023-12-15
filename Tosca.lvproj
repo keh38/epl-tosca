@@ -819,6 +819,7 @@
 			<Item Name="TDT-AODO-Action.ctl" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT AODO VIs/Typedefs/TDT-AODO-Action.ctl"/>
 			<Item Name="Read Anything (malleable).vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything (malleable).vim"/>
 			<Item Name="Math-Subtract Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Subtract Mean.vi"/>
+			<Item Name="SysInfo-Get Experiment VIs Subfolder.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get Experiment VIs Subfolder.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
