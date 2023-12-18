@@ -15,14 +15,14 @@
 
 ---
 
-### v4.9.2 (2023-11-20) *DO NOT USE*
+### ~v4.9.2 (2023-11-20)~ *DO NOT USE*
 
 #### Fixed
 - AO/AI sync error on 4461 board (epl-vi-lib) 
 
 ---
 
-### v4.9.1 (2023-10-13) *DO NOT USE*
+### ~v4.9.1 (2023-10-13)~ *DO NOT USE*
 
 #### Fixed
 - made read of TTL output specification backward compatible
