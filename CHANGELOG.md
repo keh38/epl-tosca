@@ -7,6 +7,8 @@
 - do not read past end of .f64 file (epl-vi-lib) to avoid error (loop or zero-pad as required)
 - error in v4.9.1 associated with updating TTL spec was causing TTL threads not to initiate (no TTL outputs!)
 
+---
+
 ### ~v4.9.3 (2023-11-30)~ *DO NOT USE*
 #### Fixed
 - flatten-to-string error when saving gate with shape=OFF and duration > 0
