@@ -1,5 +1,11 @@
 ## Changelog
 
+### Unreleased
+#### Fixed
+- signal synthesis error was not killing AO thread
+- fixed calibration error using USB board (epl-vi-lib, epl-cal-vi-lib)
+- do not read past end of .f64 file (epl-vi-lib) to avoid error (loop or zero-pad as required)
+
 ### v4.9.3 (2023-11-30)
 #### Fixed
 - flatten-to-string error when saving gate with shape=OFF and duration > 0
