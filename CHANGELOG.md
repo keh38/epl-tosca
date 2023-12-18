@@ -5,8 +5,9 @@
 - signal synthesis error was not killing AO thread
 - fixed calibration error using USB board (epl-vi-lib, epl-cal-vi-lib)
 - do not read past end of .f64 file (epl-vi-lib) to avoid error (loop or zero-pad as required)
+- error in v4.9.1 associated with updating TTL spec was causing TTL threads not to initiate (no TTL outputs!)
 
-### v4.9.3 (2023-11-30)
+### v4.9.3 (2023-11-30) *DO NOT USE*
 #### Fixed
 - flatten-to-string error when saving gate with shape=OFF and duration > 0
 - visual stim now opens correctly from the Connections dialog
@@ -14,14 +15,14 @@
 
 ---
 
-### v4.9.2 (2023-11-20)
+### v4.9.2 (2023-11-20) *DO NOT USE*
 
 #### Fixed
 - AO/AI sync error on 4461 board (epl-vi-lib) 
 
 ---
 
-### v4.9.1 (2023-10-13)
+### v4.9.1 (2023-10-13) *DO NOT USE*
 
 #### Fixed
 - made read of TTL output specification backward compatible
