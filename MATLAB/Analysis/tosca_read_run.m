@@ -137,7 +137,9 @@ while 1
    
    val = parse_value(s(idx+1:end));
    
-   if ischar(val)
+   if isequal(curKey, 'Script.output')
+      T.Script.output = eval(val);
+   elseif ischar(val)
       eval(['T.' curKey '=''' val ''';']);
    else
       eval(['T.' curKey '=val;']);
