@@ -4,6 +4,8 @@
 #### Added
 - TCP-controlled devices
 
+---
+
 ### v4.9.4 (2023-12-18)
 #### Fixed
 - signal synthesis error was not killing AO thread
