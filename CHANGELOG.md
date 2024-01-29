@@ -1,5 +1,12 @@
 ## Changelog
 
+### v4.10.1 (2024-01-29)
+#### Fixed
+- accumulator logic now works for latency > 0
+- installer now creates shortcut to previous version only when asked
+
+---
+
 ### v4.10 (2024-01-02)
 #### Added
 - TCP-controlled devices

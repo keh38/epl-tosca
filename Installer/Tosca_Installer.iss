@@ -2,7 +2,7 @@
 
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING .ISS SCRIPT FILES!
 
-;#define semver "4.8.1"
+;#define semver "4.10.1"
 #define verStr_ StringChange(semver, '.', '-')
 
 [Setup]                        
@@ -79,9 +79,9 @@ begin
   verStr := ExpandConstant('{#semver}');
   StrToVersion(verStr, verNum);
   prevNum := 0;
-  Result := False;
+  Result := OptionsPage.Values[0];
   
-  if FindFirst(rootFolder + '\V*', FindRec) then begin
+  if (Result and FindFirst(rootFolder + '\V*', FindRec)) then begin
     try
       repeat
         if (Pos('alpha', FindRec.Name) = 0) and (Pos('beta', FindRec.Name) = 0) then 
