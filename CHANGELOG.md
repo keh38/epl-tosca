@@ -1,5 +1,12 @@
 ## Changelog
 
+### v4.11 (unreleased)
+#### Added
+- signal gate: exposed repeat rate and duration properties
+
+#### Fixed
+- change to TCP-controlled device start command was not sticking
+
 ### v4.10.1 (2024-01-29)
 #### Fixed
 - accumulator logic now works for latency > 0
