@@ -6,6 +6,7 @@
 
 #### Fixed
 - change to TCP-controlled device start command was not sticking
+- changes to TTL device setup propagated to editor
 
 ### v4.10.1 (2024-01-29)
 #### Fixed

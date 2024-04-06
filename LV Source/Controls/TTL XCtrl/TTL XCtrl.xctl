@@ -8,7 +8,9 @@
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
-	<Item Name="Methods" Type="Folder"/>
+	<Item Name="Methods" Type="Folder">
+		<Item Name="Initialize.vi" Type="Method VI" URL="../Initialize.vi"/>
+	</Item>
 	<Item Name="Properties" Type="Folder"/>
 	<Item Name="Sub VIs" Type="Folder">
 		<Item Name="Layout Controls.vi" Type="VI" URL="../Layout Controls.vi"/>

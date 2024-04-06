@@ -833,6 +833,7 @@
 			<Item Name="SysInfo-Get Experiment VIs Subfolder.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get Experiment VIs Subfolder.vim"/>
 			<Item Name="TCP-Prepend String Length.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Prepend String Length.vi"/>
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
+			<Item Name="Flash LED.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Flash LED.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
