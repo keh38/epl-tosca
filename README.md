@@ -9,7 +9,7 @@
 ### Required to edit source code:
 - [NI DAQmx 20.1](https://www.ni.com/en/support/downloads/drivers/download.ni-daq-mx.html#348669) or greater
 - [LabVIEW 2020](https://www.ni.com/en/support/downloads/software-products/download.labview.html#346254) or greater (requires license)
-- [EPL VI Library v1.4.1](../../../epl-vi-lib/releases/tag/v1.4.1)
+- [EPL VI Library v1.7](../../../epl-vi-lib/releases/tag/v1.7)
 - [EPL Calibration VI Library v1.2.3](../../../epl-cal-vi-lib/releases/tag/v1.2.3)
 
 ### Install locations to edit source code

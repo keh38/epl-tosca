@@ -1,6 +1,6 @@
 ## Changelog
 
-### v4.11 (unreleased)
+### v4.11 (2024-04-08)
 #### Added
 - signal gate: exposed repeat rate and duration properties
 
