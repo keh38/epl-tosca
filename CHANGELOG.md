@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.12 (unreleased)
+#### Added
+- Arbitrary sequence order
+
+---
+
 ### v4.11 (2024-04-08)
 #### Added
 - signal gate: exposed repeat rate and duration properties
@@ -7,6 +13,8 @@
 #### Fixed
 - change to TCP-controlled device start command was not sticking
 - changes to TTL device setup propagated to editor, current parameters
+
+---
 
 ### v4.10.1 (2024-01-29)
 #### Fixed
