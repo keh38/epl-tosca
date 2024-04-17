@@ -17,6 +17,7 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="CHANGELOG.md" Type="Document" URL="../CHANGELOG.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -825,7 +826,6 @@
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 			<Item Name="Flash LED.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Flash LED.vi"/>
 			<Item Name="subDetailed Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Detailed ErrorSource.llb/subDetailed Error.vi"/>
-			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
@@ -853,7 +853,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/Tosca.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{53062298-C2C9-4EB2-BDBE-60FFE35F370A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{23D711E0-F64A-4520-8FFB-3E3C82A11583}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Tosca.vi</Property>
@@ -882,6 +882,9 @@
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/LV Source/Sub VIs/Tosca-MATLAB Thread.vi</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/CHANGELOG.md</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV Source/Images/Tosca.ico</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -903,7 +906,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/LV Source/Images/imaging.png</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 				<Property Name="TgtF_companyName" Type="Str">Massachusetts Eye &amp; Ear</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Tosca</Property>
 				<Property Name="TgtF_internalName" Type="Str">Tosca</Property>

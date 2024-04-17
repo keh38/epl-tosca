@@ -1,6 +1,6 @@
 ## Changelog
 
-### v4.12 (unreleased)
+### v4.12 (2024-04-17)
 #### Added
 - Arbitrary sequence order
 
