@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.12.1 (2024-04-18)
+#### Fixed
+- more robust handling of MATLAB command window/sequence order script
+
+---
+
 ### v4.12 (2024-04-17)
 #### Added
 - Arbitrary sequence order
