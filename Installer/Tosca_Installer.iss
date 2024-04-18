@@ -28,6 +28,7 @@ Name: "C:\Data\Tosca\Parameter Files"; Permissions: users-full; Check: CreateFol
 Source: "..\Build\*.*"; DestDir: "{app}"; Flags: replacesameversion
 Source: "D:\Development\epl-tosca\LV Source\Sub VIs\Tosca-MATLAB Thread.vi"; DestDir: "{app}"; Flags: replacesameversion 
 Source: "D:\Development\epl-tosca\LV Source\Pretrial VIs\Tosca-Execute MATLAB Script.vi"; DestDir: "{app}"; Flags: replacesameversion 
+Source: "D:\Development\epl-tosca\LV Source\Sub VIs\Tosca-Execute Schedule Order MATLAB Script.vi"; DestDir: "{app}"; Flags: replacesameversion 
 Source: "D:\Development\epl-tosca\docs\*"; DestDir: "{app}\docs"; Flags: replacesameversion recursesubdirs
 Source: "D:\Development\epl-vi-lib\Utility VIs\Error Handling VIs\epl-vi-lib-errors.ini"; DestDir: "{app}"; Flags: replacesameversion
 
