@@ -22,14 +22,14 @@ function [gratingid, gratingrect] = ptb_CreateProceduralSquareGrating(windowPtr,
 %
 % A typical invocation to draw a grating patch looks like this:
 %
-% Screen('DrawTexture', windowPtr, gratingid, [], dstRect, Angle, [], [],
+% Screen('DrawTexture', windowPtr, gratingid, [], dstRect, Angle, [], []
 % modulateColor, [], [], [phase+180, freq, contrast, 0]);
 %
 % Draws the grating 'gratingid' into window 'windowPtr', at position 'dstRect'
 % or in the center if dstRect is set to []. Make sure 'dstRect' has the
-% size of 'gratingrect' to avoid spatial distortions! You could do, e.g.,
+% size of 'gratingrect' to avoid spatial distortions! You could do, e.g.
 % dstRect = OffsetRect(gratingrect, xc, yc) to place the grating centered at
-% screen position (xc,yc). 'Angle' is the optional orientation angle,
+% screen position (xc,yc). 'Angle' is the optional orientation angle
 % default is zero degrees. 'modulateColor' is the base color of the grating
 % patch - it defaults to white, ie. the grating has only luminance, but no
 % color. If you'd set it to [255 0 0] you'd get a reddish grating. 'phase' is
@@ -60,7 +60,7 @@ if nargin < 3 || isempty(windowPtr) || isempty(width) || isempty(height)
 end
 
 contrastPreMultiplicator = 0.5;
-if isdeployed,
+if isdeployed
    gratingShader = LoadGLSLProgramFromFiles('./BasicGratingShader', 1);
 else
    gratingShader = LoadGLSLProgramFromFiles(fullfile('./Shaders', 'BasicGratingShader'), 1);

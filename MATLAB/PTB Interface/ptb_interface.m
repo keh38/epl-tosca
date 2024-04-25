@@ -6,16 +6,23 @@ if ~isdeployed
 %     javaaddpath('./TCPThread.jar');
 end
 
+ipAddress = 'localhost';
+
 if nargin > 0
-   fprintf('init_string = %s\n', init_string);
-   [dist, screenID, diodeSize, diodeLocation, background] = parse_init_options(init_string);
-   ptb = ptb_InitializeGratingDisplay(dist, screenID, diodeSize, diodeLocation, background);
+   if startsWith(init_string, '-ip')
+      ipAddress = init_string(5:end);
+   else
+      fprintf('init_string = %s\n', init_string);
+      [dist, screenID, diodeSize, diodeLocation, background] = parse_init_options(init_string);
+      ptb = ptb_InitializeGratingDisplay(dist, screenID, diodeSize, diodeLocation, background);
+   end
 end
 
 grating.type = 'OFF';
 log = ClearLog();
 
-tcp_thread = TCPThread_KeepOpen('localhost', 4926);
+fprintf('Listening on %s...\n', ipAddress);
+tcp_thread = TCPThread_KeepOpen(ipAddress, 4926);
 start(tcp_thread);
 
 pause(1);

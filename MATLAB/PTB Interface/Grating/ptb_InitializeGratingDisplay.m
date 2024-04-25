@@ -81,20 +81,20 @@ try
 
    PTB.useDiodeRect = false;
    
-   if diodeRectSize > 0,
+   if diodeRectSize > 0
       PTB.useDiodeRect = true;
       baseRect = diodeRectSize * [0 0 1 1];
-      switch diodeRectLocation,
-         case 'bottomleft',
+      switch diodeRectLocation
+         case 'bottomleft'
             x = diodeRectSize/2;
             y = screenYpixels-diodeRectSize/2;
-         case 'topleft',
+         case 'topleft'
             x = diodeRectSize/2;
             y = diodeRectSize/2;
-         case 'topright',
+         case 'topright'
             x = screenXpixels - diodeRectSize/2;
             y = diodeRectSize/2;
-         case 'bottomright',
+         case 'bottomright'
             x = screenXpixels - diodeRectSize/2;
             y = screenYpixels-diodeRectSize/2;
       end
