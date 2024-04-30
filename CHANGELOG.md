@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.12.2 (2024-04-30)
+#### Fixed
+- disabled status request in visual display thread to circumvent as yet unknown error
+
+---
+
 ### v4.12.1 (2024-04-18)
 #### Fixed
 - more robust handling of MATLAB command window/sequence order script
