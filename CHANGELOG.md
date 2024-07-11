@@ -1,5 +1,9 @@
 ## Changelog
 
+### v4.12.3 (unreleased)
+#### Fixed
+- faster syntax to retrieve computer name for file header. Starts faster and avoids timeout error waiting for DI filename.
+
 ### v4.12.2 (2024-04-30)
 #### Fixed
 - disabled status request in visual display thread to circumvent as yet unknown error
