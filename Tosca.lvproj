@@ -834,8 +834,6 @@
 			<Item Name="TCP-Prepend String Length.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Prepend String Length.vi"/>
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 			<Item Name="Flash LED.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Flash LED.vi"/>
-			<Item Name="Logic State.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Logic State.ctl"/>
-			<Item Name="SignalManager.lvclass" Type="LVClass" URL="../../Signal Synthesis VIs/4th Generation/Classes/SignalManager/SignalManager.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
