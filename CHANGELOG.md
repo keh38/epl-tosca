@@ -1,9 +1,17 @@
 ## Changelog
 
+### v4.12.4 (2024-07-25)
+#### Fixed
+- bug testing masker in previous version
+
+---
+
 ### v4.12.3 (2024-07-25)
 #### Fixed
 - faster syntax to retrieve computer name for file header. Starts faster and avoids timeout error waiting for DI filename.
 - continuous masker had rising ramp on every frame
+
+---
 
 ### v4.12.2 (2024-04-30)
 #### Fixed
