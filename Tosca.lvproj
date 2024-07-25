@@ -17,6 +17,7 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="CHANGELOG.md" Type="Document" URL="../CHANGELOG.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -861,7 +862,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/Tosca.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23D711E0-F64A-4520-8FFB-3E3C82A11583}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AAADA9AB-B3EA-4E65-8D4A-FAC500774604}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Tosca.vi</Property>
@@ -891,7 +892,7 @@
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/LV Source/Sub VIs/Tosca-MATLAB Thread.vi</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref"></Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/CHANGELOG.md</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV Source/Images/Tosca.ico</Property>
