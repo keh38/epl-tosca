@@ -1,6 +1,6 @@
 ## Changelog
 
-### v4.13 (unreleased)
+### v4.13 (2024-08-05)
 #### Fixed
 - expose masker level as sequence variable when masker is active
 #### Changed
