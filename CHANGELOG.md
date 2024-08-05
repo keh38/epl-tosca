@@ -1,5 +1,13 @@
 ## Changelog
 
+### v4.13 (unreleased)
+#### Fixed
+- expose masker level as sequence variable when masker is active
+#### Changed
+- apply cos2 ramp to masker when it changes level
+
+---
+
 ### v4.12.4 (2024-07-25)
 #### Fixed
 - bug testing masker in previous version
