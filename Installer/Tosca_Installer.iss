@@ -2,7 +2,7 @@
 
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING .ISS SCRIPT FILES!
 
-;#define semver "4.10.1"
+#define semver "4.13.1"
 #define verStr_ StringChange(semver, '.', '-')
 
 [Setup]                        
