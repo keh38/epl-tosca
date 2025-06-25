@@ -825,27 +825,7 @@
 			<Item Name="TCP-Prepend String Length.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Prepend String Length.vi"/>
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 			<Item Name="Flash LED.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Flash LED.vi"/>
-			<Item Name="Error-Format Stack.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error-Format Stack.vi"/>
-			<Item Name="Logger-Log Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Error.vi"/>
-			<Item Name="Logger-Level.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Level.ctl"/>
-			<Item Name="Logger-Action.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Action.ctl"/>
-			<Item Name="Logger-Queue Data.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Queue Data.ctl"/>
-			<Item Name="subDetailed Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Detailed ErrorSource.llb/subDetailed Error.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="/C/Windows/SysWOW64/kernel32.dll"/>
-			<Item Name="TDT-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Devices.vi"/>
-			<Item Name="TDT-Device ID.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device ID.ctl"/>
-			<Item Name="TDT-Output source.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Output source.ctl"/>
-			<Item Name="TDT-Connect ZBUS.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Connect ZBUS.vi"/>
-			<Item Name="TDT-Init RPcoX.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Init RPcoX.vi"/>
-			<Item Name="TDT-Sampling Rate to LoadCOFsf Input.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Sampling Rate to LoadCOFsf Input.vi"/>
-			<Item Name="TDT-Write Tag.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Write Tag.vi"/>
-			<Item Name="TDT-Run Circuit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Run Circuit.vi"/>
-			<Item Name="TDT-Enumerate Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Channels.vi"/>
-			<Item Name="TDT-Stream AI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Stream AI.vi"/>
-			<Item Name="TDT-Signal Bank Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Signal Bank Action.ctl"/>
-			<Item Name="TDT-Wait For AI Buffer Space.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Wait For AI Buffer Space.vi"/>
-			<Item Name="TDTRX6-Read Input Buffers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Deprecated/TDTRX6-Read Input Buffers.vi"/>
-			<Item Name="TDT-Halt.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Halt.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">
