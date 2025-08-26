@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.14 (unreleased)
+#### Added
+- Family-specific sequence order
+
+---
+
 ### v4.13.1 (2025-06-25)
 #### Changed
 - Visual stim: increase time out on TCP draw command
