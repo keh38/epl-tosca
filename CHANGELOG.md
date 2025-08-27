@@ -1,6 +1,6 @@
 ## Changelog
 
-### v4.14 (unreleased)
+### v4.14 (2025-08-27)
 #### Added
 - Family-specific sequence order
 
