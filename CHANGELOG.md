@@ -1,5 +1,13 @@
 ## Changelog
 
+### v4.15 (2026-09-15)
+#### Fixed
+- explicitly specify TCP byte-order (e.g.: Synapse error)
+#### Added
+- support for PXIe-4468
+
+---
+
 ### v4.14 (2025-08-27)
 #### Added
 - Family-specific sequence order
