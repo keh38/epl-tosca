@@ -395,6 +395,11 @@
 				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="Open a Document on Disk.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open a Document on Disk.vi"/>
 			</Item>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="Array-Intersection.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Intersection.vi"/>
@@ -852,6 +857,17 @@
 			<Item Name="TDT-Halt.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Halt.vi"/>
 			<Item Name="subDetailed Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Detailed ErrorSource.llb/subDetailed Error.vi"/>
 			<Item Name="PXI-Get Terminal Configuration.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Terminal Configuration.vi"/>
+			<Item Name="Logger-Log Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Info.vi"/>
+			<Item Name="Logger-Globals.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Globals.vi"/>
+			<Item Name="Logger-Init Log File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Init Log File.vi"/>
+			<Item Name="Error-Format Message.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error-Format Message.vi"/>
+			<Item Name="Logger-Check and Log Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Check and Log Error.vi"/>
+			<Item Name="Logger-Purge Old Logs.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Purge Old Logs.vi"/>
+			<Item Name="Logger-State.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-State.ctl"/>
+			<Item Name="Logger-Flush Log.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Flush Log.vi"/>
+			<Item Name="Logger.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Logger.vi"/>
+			<Item Name="Logger-Start.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Logger-Start.vi"/>
+			<Item Name="Logger-Close Log.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Close Log.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tosca" Type="EXE">

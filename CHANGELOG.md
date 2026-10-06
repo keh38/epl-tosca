@@ -1,5 +1,13 @@
 ## Changelog
 
+### v4.15.1 (unreleased)
+#### Added
+- logging
+#### Fixed
+- tracking down failure to start DO
+
+---
+
 ### v4.15 (2026-09-15)
 #### Fixed
 - explicitly specify TCP byte-order (e.g.: Synapse error)
