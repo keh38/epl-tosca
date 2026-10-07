@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.15.2 (2026-10-07)
+#### Fixed
+- read start trigger terminal explicitly
+
+---
+
 ### v4.15.1 (unreleased)
 #### Added
 - logging
