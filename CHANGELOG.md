@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.15.3 (2026-11-05)
+#### Fixed
+- PXIe4468 AI compatibility
+
+---
+
 ### v4.15.2 (2026-10-07)
 #### Fixed
 - read start trigger terminal explicitly
