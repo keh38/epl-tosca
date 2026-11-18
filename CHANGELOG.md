@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.16 (2026-11-18)
+#### Changed
+- expressions allow e.g.: \[ 3x2; 2:2:10 \]
+
+---
+
 ### v4.15.3 (2026-11-05)
 #### Fixed
 - PXIe4468 AI compatibility
