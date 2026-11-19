@@ -1,5 +1,11 @@
 ## Changelog
 
+### v4.16.1 (2026-11-19)
+#### Fixed
+- digital edge fix applied for PXIe-4468 breaks 4461
+
+---
+
 ### v4.16 (2026-11-18)
 #### Changed
 - expressions allow e.g.: \[ 3x2; 2:2:10 \]
